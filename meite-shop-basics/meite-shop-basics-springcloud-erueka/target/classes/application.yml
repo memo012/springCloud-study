@@ -1,0 +1,16 @@
+# 服务端口号
+server:
+  port: 8100
+
+# eureka基本能配置
+eureka:
+  instance:
+    # 实例名称
+    hostname: localhost
+  client:
+    # 声明自己是个服务端
+    registerWithEureka: false
+    # 因为自己是为注册中心,不需要检索服务
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/

@@ -1,0 +1,23 @@
+server:
+  port: 8300
+
+# 指定注册中心地址
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8100/eureka/
+
+# 服务的名称
+spring:
+  application:
+    name: app-member
+
+# swagger 相关配置
+swagger:
+  base-package: com.adminsys.service
+  title: 基于SpringCloud2.x构建微服务电商项目-会员服务接口
+  version: 1.1
+  terms-of-service-url: www.memo012.com
+  contact:
+    name: memo012
+    email: 1158821459@qq.com
