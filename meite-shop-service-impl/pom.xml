@@ -16,6 +16,10 @@
         <module>meite-shop-service-member</module>
     </modules>
 
+    <properties>
+        <mysql.version>8.0.13</mysql.version>
+    </properties>
+
     <dependencies>
         <!--        feign依赖-->
         <dependency>
@@ -27,6 +31,19 @@
             <groupId>com.meite</groupId>
             <artifactId>meite-shop-common-core</artifactId>
             <version>1.0-RELEASE</version>
+        </dependency>
+
+        <!-- mybatis相关依赖 -->
+        <dependency>
+            <groupId>org.mybatis.spring.boot</groupId>
+            <artifactId>mybatis-spring-boot-starter</artifactId>
+            <version>1.1.1</version>
+        </dependency>
+        <!-- mysql 依赖 -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>${mysql.version}</version>
         </dependency>
 
 

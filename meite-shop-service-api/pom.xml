@@ -16,17 +16,7 @@
         <module>meite-shop-service-api-member</module>
     </modules>
 
-    <properties>
-        <swagger.version>1.7.0.RELEASE</swagger.version>
-    </properties>
-
     <dependencies>
-        <dependency>
-            <groupId>com.spring4all</groupId>
-            <artifactId>swagger-spring-boot-starter</artifactId>
-            <version>${swagger.version}</version>
-        </dependency>
-
         <dependency>
             <groupId>com.meite</groupId>
             <artifactId>meite-shop-common-core</artifactId>

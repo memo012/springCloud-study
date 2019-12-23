@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="meite-shop-basics-springcloud-erueka" />
         <module name="meite-shop-service-api-weixin" />
+        <module name="meite-shop-service-api-member-entity" />
         <module name="meite-shop-basics-springcloud-zuul" />
         <module name="meite-shop-common-core" />
         <module name="meite-shop-service-api-member" />
@@ -31,6 +32,7 @@
       <module name="meite-shop-basics-springcloud-zuul" options="-parameters" />
       <module name="meite-shop-common-core" options="-parameters" />
       <module name="meite-shop-service-api-member" options="-parameters" />
+      <module name="meite-shop-service-api-member-entity" options="-parameters" />
       <module name="meite-shop-service-api-weixin" options="-parameters" />
       <module name="meite-shop-service-member" options="-parameters" />
     </option>

@@ -18,6 +18,12 @@
             <artifactId>meite-shop-api-weixin-entity</artifactId>
             <version>1.0-RELEASE</version>
         </dependency>
+        <dependency>
+            <groupId>com.meite</groupId>
+            <artifactId>meite-shop-service-api-member-entity</artifactId>
+            <version>1.0-RELEASE</version>
+        </dependency>
+
     </dependencies>
 
 
