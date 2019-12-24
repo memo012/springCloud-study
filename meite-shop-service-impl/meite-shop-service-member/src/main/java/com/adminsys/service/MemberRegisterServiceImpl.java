@@ -3,10 +3,10 @@ package com.adminsys.service;
 import com.adminsys.base.BaseApiService;
 import com.adminsys.base.BaseResponse;
 import com.adminsys.entity.UserEntity;
+import com.adminsys.feign.VerificaCodeServiceFeign;
 import com.adminsys.mapper.UserMapper;
 import com.adminsys.utils.MD5Util;
 import com.alibaba.fastjson.JSONObject;
-import net.bytebuddy.asm.Advice;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -24,6 +24,9 @@ public class MemberRegisterServiceImpl extends BaseApiService<JSONObject> implem
     @Autowired
     private UserMapper userMapper;
 
+    @Autowired
+    private VerificaCodeServiceFeign verificaCodeServiceFeign;
+
     @Override
     public BaseResponse<JSONObject> register(@RequestBody UserEntity userEntity, String registCode) {
         // 1 参数验证
@@ -40,6 +43,7 @@ public class MemberRegisterServiceImpl extends BaseApiService<JSONObject> implem
             return setResultError("密码不能为空!");
         }
         // 2 验证注册码是否正确
+        verificaCodeServiceFeign.verificaWeixinCode(mobile, registCode);
         // 3 对用户密码进行加密
         String newPwd = MD5Util.MD5(password);
         userEntity.setPassword(newPwd);

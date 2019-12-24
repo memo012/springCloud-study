@@ -8,13 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="meite-shop-basics-springcloud-erueka" />
         <module name="meite-shop-service-api-weixin" />
-        <module name="meite-shop-service-api-member-entity" />
         <module name="meite-shop-basics-springcloud-zuul" />
         <module name="meite-shop-common-core" />
         <module name="meite-shop-service-api-member" />
+        <module name="com-shop-service-weixin" />
         <module name="meite-shop-api-weixin-entity" />
         <module name="meite-shop-service-member" />
-        <module name="com-shop-service-weixin" />
+        <module name="meite-shop-service-api-member-entity" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

@@ -5,29 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e1353b5-38c7-492c-978f-e951af44da73" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-api-entitys/meite-shop-service-api-member-entity/meite-shop-service-api-member-entity.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-api-entitys/meite-shop-service-api-member-entity/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-api-entitys/meite-shop-service-api-member-entity/src/main/java/com/adminsys/entity/UserEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-common/meite-shop-common-core/src/main/java/com/adminsys/utils/MD5Util.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-service-api/meite-shop-service-api-member/src/main/java/com/adminsys/service/MemberRegisterService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-service-api/meite-shop-service-api-weixin/src/main/java/com/adminsys/service/VerificaCodeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-service-impl/com-shop-service-weixin/src/main/java/com/adminsys/feign/MemberServiceFeign.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-member/src/main/java/com/adminsys/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-member/src/main/java/com/adminsys/service/MemberRegisterServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-service-impl/com-shop-service-weixin/src/main/java/com/adminsys/service/impl/VerificaCodeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-member/src/main/java/com/adminsys/feign/VerificaCodeServiceFeign.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meite-shop-api-entitys/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-api-entitys/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meite-shop-service-api/meite-shop-service-api-member/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-api/meite-shop-service-api-member/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meite-shop-service-api/meite-shop-service-api-member/src/main/java/com/adminsys/service/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-api/meite-shop-service-api-member/src/main/java/com/adminsys/service/MemberService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meite-shop-service-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meite-shop-service-impl/com-shop-service-weixin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-impl/com-shop-service-weixin/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meite-shop-service-impl/com-shop-service-weixin/src/main/java/com/adminsys/AppWeiXin.java" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-impl/com-shop-service-weixin/src/main/java/com/adminsys/AppWeiXin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-member/src/main/java/com/adminsys/AppMember.java" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-member/src/main/java/com/adminsys/AppMember.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-member/src/main/java/com/adminsys/service/MemberServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-member/src/main/java/com/adminsys/service/MemberServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-member/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-member/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meite-shop-service-impl/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-impl/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meite-shop-service-api/meite-shop-service-api-weixin/src/main/java/com/adminsys/service/VerificaCodeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-api/meite-shop-service-api-weixin/src/main/java/com/adminsys/service/VerificaCodeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meite-shop-service-impl/com-shop-service-weixin/src/main/java/com/adminsys/service/impl/WeiXinAppServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-impl/com-shop-service-weixin/src/main/java/com/adminsys/service/impl/WeiXinAppServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-member/src/main/java/com/adminsys/service/MemberRegisterServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-member/src/main/java/com/adminsys/service/MemberRegisterServiceImpl.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -101,7 +85,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.AppWeiXin">
+  <component name="RunManager" selected="Spring Boot.AppEureka">
     <configuration name="AppEureka" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="meite-shop-basics-springcloud-erueka" />
       <extension name="coverage">
@@ -156,10 +140,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.AppEureka" />
         <item itemvalue="Spring Boot.AppWeiXin" />
         <item itemvalue="Spring Boot.AppGateWay" />
         <item itemvalue="Spring Boot.AppMember" />
-        <item itemvalue="Spring Boot.AppEureka" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +167,8 @@
       <workItem from="1575864170217" duration="2792000" />
       <workItem from="1576541265607" duration="9580000" />
       <workItem from="1576572623837" duration="30000" />
-      <workItem from="1577094629433" duration="8543000" />
+      <workItem from="1577094629433" duration="9062000" />
+      <workItem from="1577178084135" duration="1763000" />
     </task>
     <servers />
   </component>

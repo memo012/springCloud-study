@@ -20,4 +20,5 @@ public class WeiXinAppServiceImpl extends BaseApiService<AppEntity> implements W
     public BaseResponse<AppEntity> getApp() {
         return setResultSuccess(new AppEntity("123456", "memo012"));
     }
+
 }
