@@ -15,12 +15,12 @@
     <dependencies>
         <dependency>
             <groupId>com.meite</groupId>
-            <artifactId>meite-shop-api-weixin-entity</artifactId>
+            <artifactId>meite-shop-api-weixin-dto</artifactId>
             <version>1.0-RELEASE</version>
         </dependency>
         <dependency>
             <groupId>com.meite</groupId>
-            <artifactId>meite-shop-service-api-member-entity</artifactId>
+            <artifactId>meite-shop-api-member-dto</artifactId>
             <version>1.0-RELEASE</version>
         </dependency>
 

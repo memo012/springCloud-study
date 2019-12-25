@@ -8,24 +8,30 @@
         <outputRelativeToContentRoot value="true" />
         <module name="meite-shop-basics-springcloud-erueka" />
         <module name="meite-shop-service-api-weixin" />
+        <module name="meite-shop-api-weixin-dto" />
         <module name="meite-shop-basics-springcloud-zuul" />
         <module name="meite-shop-common-core" />
         <module name="meite-shop-service-api-member" />
-        <module name="com-shop-service-weixin" />
-        <module name="meite-shop-api-weixin-entity" />
+        <module name="meite-shop-api-member-dto" />
         <module name="meite-shop-service-member" />
-        <module name="meite-shop-service-api-member-entity" />
+        <module name="com-shop-service-weixin" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="meite-shop-api-entitys" target="1.8" />
+      <module name="meite-shop-api-weixin-entity" target="1.8" />
       <module name="meite-shop-basics" target="1.8" />
       <module name="meite-shop-basics-springcloud-eureka" target="1.8" />
+      <module name="meite-shop-service-api-member-entity" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="com-shop-service-weixin" options="-parameters" />
+      <module name="meite-shop-api-dto" options="-parameters" />
       <module name="meite-shop-api-entitys" options="-parameters" />
+      <module name="meite-shop-api-member-dto" options="-parameters" />
+      <module name="meite-shop-api-weixin-dto" options="-parameters" />
       <module name="meite-shop-api-weixin-entity" options="-parameters" />
       <module name="meite-shop-basics-springcloud-erueka" options="-parameters" />
       <module name="meite-shop-basics-springcloud-eureka" options="-parameters" />

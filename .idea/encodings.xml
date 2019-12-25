@@ -2,6 +2,9 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/meite-shop-api-dto" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/meite-shop-api-dto/meite-shop-api-member-dto" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/meite-shop-api-dto/meite-shop-api-weixin-dto" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/meite-shop-api-entitys" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/meite-shop-api-entitys/meite-shop-api-weixin-entity" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/meite-shop-api-entitys/meite-shop-service-api-member-entity" charset="UTF-8" />

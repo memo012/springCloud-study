@@ -2,9 +2,11 @@ package com.adminsys.service;
 
 import com.adminsys.base.BaseApiService;
 import com.adminsys.base.BaseResponse;
-import com.adminsys.entity.UserEntity;
+import com.adminsys.bean.BeanUtil;
 import com.adminsys.feign.VerificaCodeServiceFeign;
 import com.adminsys.mapper.UserMapper;
+import com.adminsys.mapper.entity.UserDo;
+import com.adminsys.member.input.dto.UserInputDTO;
 import com.adminsys.utils.MD5Util;
 import com.alibaba.fastjson.JSONObject;
 import org.apache.commons.lang3.StringUtils;
@@ -28,7 +30,7 @@ public class MemberRegisterServiceImpl extends BaseApiService<JSONObject> implem
     private VerificaCodeServiceFeign verificaCodeServiceFeign;
 
     @Override
-    public BaseResponse<JSONObject> register(@RequestBody UserEntity userEntity, String registCode) {
+    public BaseResponse<JSONObject> register(@RequestBody UserInputDTO userEntity, String registCode) {
         // 1 参数验证
         String userName = userEntity.getUserName();
         if(StringUtils.isEmpty(userName)){
@@ -47,7 +49,9 @@ public class MemberRegisterServiceImpl extends BaseApiService<JSONObject> implem
         // 3 对用户密码进行加密
         String newPwd = MD5Util.MD5(password);
         userEntity.setPassword(newPwd);
-        // 4 调用数据库插入数据
-        return userMapper.register(userEntity) > 0 ? setResultSuccess("注册成功") : setResultError("注册失败");
+        // 4 将请求的dto参数转换DO
+        UserDo userDo = BeanUtil.dtoToDo(userEntity, UserDo.class);
+        // 5 调用数据库插入数据
+        return userMapper.register(userDo) > 0 ? setResultSuccess("注册成功") : setResultError("注册失败");
     }
 }

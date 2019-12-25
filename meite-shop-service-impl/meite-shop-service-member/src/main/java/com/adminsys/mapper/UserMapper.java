@@ -1,6 +1,6 @@
 package com.adminsys.mapper;
 
-import com.adminsys.entity.UserEntity;
+import com.adminsys.mapper.entity.UserDo;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
@@ -14,8 +14,8 @@ import org.springframework.stereotype.Repository;
 public interface UserMapper {
 
 	@Insert("INSERT INTO `meite_user` VALUES (null,#{mobile}, #{email}, #{password}, #{userName}, null, null, null, '1', null, null, null);")
-	int register(UserEntity userEntity);
+	int register(UserDo userEntity);
 
 	@Select("SELECT * FROM meite_user WHERE MOBILE=#{mobile};")
-	UserEntity existMobile(@Param("mobile") String mobile);
+	UserDo existMobile(@Param("mobile") String mobile);
 }

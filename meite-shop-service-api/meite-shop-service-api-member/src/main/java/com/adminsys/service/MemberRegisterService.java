@@ -1,7 +1,7 @@
 package com.adminsys.service;
 
 import com.adminsys.base.BaseResponse;
-import com.adminsys.entity.UserEntity;
+import com.adminsys.member.input.dto.UserInputDTO;
 import com.alibaba.fastjson.JSONObject;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
@@ -25,7 +25,7 @@ public interface MemberRegisterService {
      */
     @PostMapping("/register")
     @ApiOperation(value = "会员用户注册信息接口")
-    BaseResponse<JSONObject> register(@RequestBody UserEntity userEntity,
+    BaseResponse<JSONObject> register(@RequestBody UserInputDTO userEntity,
                                       @RequestParam("registCode") String registCode);
 
 }

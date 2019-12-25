@@ -11,6 +11,12 @@ eureka:
 spring:
   application:
     name: app-member
+    ###数据库相关连接
+  datasource:
+    username: root
+    password: feise5328
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/meite_member?useSSL=FALSE&serverTimezone=UTC
 
 # swagger 相关配置
 swagger:
@@ -21,3 +27,8 @@ swagger:
   contact:
     name: memo012
     email: 1158821459@qq.com
+
+### mybatis 日志打印
+logging:
+  level:
+    com.adminsys.mapper: debug

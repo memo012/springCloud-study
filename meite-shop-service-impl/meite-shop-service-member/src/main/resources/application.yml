@@ -27,3 +27,8 @@ swagger:
   contact:
     name: memo012
     email: 1158821459@qq.com
+
+### mybatis 日志打印
+logging:
+  level:
+    com.adminsys.mapper: debug
