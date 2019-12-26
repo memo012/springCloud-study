@@ -5,48 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e1353b5-38c7-492c-978f-e951af44da73" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/meite-shop-api-dto/meite-shop-api-dto.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-api-dto/meite-shop-api-member-dto/meite-shop-api-member-dto.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-api-dto/meite-shop-api-member-dto/src/main/java/com/adminsys/member/input/dto/UserInputDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-api-dto/meite-shop-api-weixin-dto/meite-shop-api-weixin-dto.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-api-dto/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-common/meite-shop-common-core/src/main/java/com/adminsys/bean/BeanUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-common/meite-shop-common-core/src/main/java/com/adminsys/error/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-member/src/main/java/com/adminsys/mapper/entity/UserDo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-api-dto/meite-shop-api-member-dto/src/main/java/com/adminsys/member/input/dto/UserLoginInpDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-common/meite-shop-common-core/src/main/java/com/adminsys/token/GenerateToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-common/meite-shop-common-core/src/main/java/com/adminsys/type/TypeCastHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-common/meite-shop-common-core/src/main/java/com/adminsys/utils/RedisUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-service-api/meite-shop-service-api-member/src/main/java/com/adminsys/service/MemberLoginService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-member/src/main/java/com/adminsys/mapper/UserTokenMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-member/src/main/java/com/adminsys/mapper/entity/BaseDo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-member/src/main/java/com/adminsys/mapper/entity/UserTokenDo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-member/src/main/java/com/adminsys/service/MemberLoginServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meite-shop-api-entitys/meite-shop-api-entitys.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meite-shop-api-entitys/meite-shop-api-weixin-entity/meite-shop-api-weixin-entity.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meite-shop-api-entitys/meite-shop-api-weixin-entity/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-api-dto/meite-shop-api-weixin-dto/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meite-shop-api-entitys/meite-shop-api-weixin-entity/src/main/java/com/adminsys/weixin/entity/AppEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meite-shop-api-entitys/meite-shop-api-weixin-entity/target/classes/com/adminsys/weixin/entity/AppEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meite-shop-api-entitys/meite-shop-service-api-member-entity/meite-shop-service-api-member-entity.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meite-shop-api-entitys/meite-shop-service-api-member-entity/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-api-dto/meite-shop-api-member-dto/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meite-shop-api-entitys/meite-shop-service-api-member-entity/src/main/java/com/adminsys/entity/UserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-api-dto/meite-shop-api-member-dto/src/main/java/com/adminsys/member/output/dto/UserOutDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meite-shop-api-entitys/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meite-shop-service-api/meite-shop-service-api-member/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-api/meite-shop-service-api-member/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meite-shop-service-api/meite-shop-service-api-member/src/main/java/com/adminsys/service/MemberRegisterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-api/meite-shop-service-api-member/src/main/java/com/adminsys/service/MemberRegisterService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/meite-shop-service-api/meite-shop-service-api-member/src/main/java/com/adminsys/service/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-api/meite-shop-service-api-member/src/main/java/com/adminsys/service/MemberService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meite-shop-service-api/meite-shop-service-api-member/target/classes/com/adminsys/service/MemberService.class" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-api/meite-shop-service-api-member/target/classes/com/adminsys/service/MemberService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meite-shop-service-api/meite-shop-service-api-weixin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-api/meite-shop-service-api-weixin/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meite-shop-service-api/meite-shop-service-api-weixin/src/main/java/com/adminsys/service/WeiXinAppService.java" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-api/meite-shop-service-api-weixin/src/main/java/com/adminsys/service/WeiXinAppService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meite-shop-service-api/meite-shop-service-api-weixin/target/classes/META-INF/meite-shop-service-api-weixin.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meite-shop-service-api/meite-shop-service-api-weixin/target/classes/com/adminsys/service/WeiXinAppService.class" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-api/meite-shop-service-api-weixin/target/classes/com/adminsys/service/WeiXinAppService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meite-shop-service-impl/com-shop-service-weixin/src/main/java/com/adminsys/service/impl/WeiXinAppServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-impl/com-shop-service-weixin/src/main/java/com/adminsys/service/impl/WeiXinAppServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meite-shop-service-impl/com-shop-service-weixin/target/classes/META-INF/com-shop-service-weixin.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meite-shop-service-impl/com-shop-service-weixin/target/classes/com/adminsys/AppWeiXin.class" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-impl/com-shop-service-weixin/target/classes/com/adminsys/AppWeiXin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meite-shop-service-impl/com-shop-service-weixin/target/classes/com/adminsys/service/impl/WeiXinAppServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-impl/com-shop-service-weixin/target/classes/com/adminsys/service/impl/WeiXinAppServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-member/src/main/java/com/adminsys/feign/WeiXinAppServiceFeign.java" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-member/src/main/java/com/adminsys/feign/WeiXinAppServiceFeign.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-member/src/main/java/com/adminsys/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-member/src/main/java/com/adminsys/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-member/src/main/java/com/adminsys/service/MemberRegisterServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-member/src/main/java/com/adminsys/service/MemberRegisterServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-member/src/main/java/com/adminsys/mapper/entity/UserDo.java" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-member/src/main/java/com/adminsys/mapper/entity/UserDo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-member/src/main/java/com/adminsys/service/MemberServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-member/src/main/java/com/adminsys/service/MemberServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-member/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-member/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-member/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-member/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-member/target/classes/com/adminsys/AppMember.class" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-member/target/classes/com/adminsys/AppMember.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-member/target/classes/com/adminsys/service/MemberServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-member/target/classes/com/adminsys/service/MemberServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -92,7 +64,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-member/src/main/java/com/adminsys/mapper/entity" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/meite-shop-common/meite-shop-common-core/src/main/java/com/adminsys/utils" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -105,6 +77,7 @@
       <recent name="com.adminsys.weixin.entity" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/meite-shop-common/meite-shop-common-core/src/main/java/com/adminsys/utils" />
       <recent name="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-member/src/main/java/com/adminsys/mapper/entity" />
       <recent name="$PROJECT_DIR$/meite-shop-common/meite-shop-common-core/src/main/java/com/adminsys" />
       <recent name="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-springcloud-zuul/src/main/resources" />
@@ -207,7 +180,9 @@
       <workItem from="1576572623837" duration="30000" />
       <workItem from="1577094629433" duration="9062000" />
       <workItem from="1577178084135" duration="1763000" />
-      <workItem from="1577238816006" duration="5555000" />
+      <workItem from="1577238816006" duration="5884000" />
+      <workItem from="1577252176676" duration="83000" />
+      <workItem from="1577322465460" duration="8380000" />
     </task>
     <servers />
   </component>
