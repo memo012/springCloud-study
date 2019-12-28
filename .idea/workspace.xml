@@ -5,20 +5,230 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e1353b5-38c7-492c-978f-e951af44da73" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/meite-shop-api-dto/meite-shop-api-member-dto/src/main/java/com/adminsys/member/input/dto/UserLoginInpDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-common/meite-shop-common-core/src/main/java/com/adminsys/token/GenerateToken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-common/meite-shop-common-core/src/main/java/com/adminsys/type/TypeCastHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-common/meite-shop-common-core/src/main/java/com/adminsys/utils/RedisUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-service-api/meite-shop-service-api-member/src/main/java/com/adminsys/service/MemberLoginService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-member/src/main/java/com/adminsys/mapper/UserTokenMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-member/src/main/java/com/adminsys/mapper/entity/BaseDo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-member/src/main/java/com/adminsys/mapper/entity/UserTokenDo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-member/src/main/java/com/adminsys/service/MemberLoginServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-common/meite-shop-common-core/src/main/java/com/adminsys/transaction/RedisDataSourceTransaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-common/meite-shop-common-core/src/main/java/com/adminsys/utils/TimeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-common/meite-shop-common-web-core/meite-shop-common-web-core.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-common/meite-shop-common-web-core/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-common/meite-shop-common-web-core/src/main/java/com/adminsys/bean/BaseWebController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-common/meite-shop-common-web-core/src/main/java/com/adminsys/utils/BeanUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-common/meite-shop-common-web-core/src/main/java/com/adminsys/utils/CookieUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/meite-shop-portal-web.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/java/com/adminsys/portal/AppPortal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/java/com/adminsys/portal/code/RandomValidateCodeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/java/com/adminsys/portal/code/VerifyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/java/com/adminsys/portal/controller/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/java/com/adminsys/portal/feign/MemberLoginServiceFeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/java/com/adminsys/portal/feign/MemberRegisterServiceFeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/java/com/adminsys/portal/feign/MemberServiceFeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/java/com/adminsys/portal/member/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/java/com/adminsys/portal/member/controller/RegisterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/java/com/adminsys/portal/member/controller/req/LoginVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/java/com/adminsys/portal/member/controller/req/RegisterVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/java/com/adminsys/portal/web/constants/WebConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/css/layui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/css/layui.mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/css/modules/code.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/css/modules/layer/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/css/modules/layer/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/font/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/font/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/images/face/0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/images/face/1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/images/face/10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/images/face/11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/images/face/12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/images/face/13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/images/face/14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/images/face/15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/images/face/16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/images/face/17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/images/face/18.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/images/face/19.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/images/face/2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/images/face/20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/images/face/21.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/images/face/22.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/images/face/23.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/images/face/24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/images/face/25.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/images/face/26.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/images/face/27.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/images/face/28.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/images/face/29.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/images/face/3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/images/face/30.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/images/face/31.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/images/face/32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/images/face/33.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/images/face/34.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/images/face/35.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/images/face/36.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/images/face/37.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/images/face/38.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/images/face/39.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/images/face/4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/images/face/40.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/images/face/41.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/images/face/42.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/images/face/43.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/images/face/44.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/images/face/45.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/images/face/46.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/images/face/47.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/images/face/48.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/images/face/49.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/images/face/5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/images/face/50.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/images/face/51.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/images/face/52.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/images/face/53.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/images/face/54.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/images/face/55.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/images/face/56.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/images/face/57.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/images/face/58.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/images/face/59.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/images/face/6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/images/face/60.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/images/face/61.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/images/face/62.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/images/face/63.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/images/face/64.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/images/face/65.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/images/face/66.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/images/face/67.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/images/face/68.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/images/face/69.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/images/face/7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/images/face/70.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/images/face/71.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/images/face/8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/images/face/9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/lay/modules/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/lay/modules/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/lay/modules/colorpicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/lay/modules/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/lay/modules/flow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/lay/modules/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/lay/modules/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/lay/modules/laydate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/lay/modules/layedit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/lay/modules/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/lay/modules/laypage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/lay/modules/laytpl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/lay/modules/mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/lay/modules/rate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/lay/modules/slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/lay/modules/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/lay/modules/tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/lay/modules/upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/lay/modules/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/layui.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/layui/layui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/static/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/static/css/register.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/static/font/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/static/font/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/static/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/static/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/static/img/banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/static/img/banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/static/img/banner_small.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/static/img/beitao1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/static/img/beitao2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/static/img/beitao3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/static/img/beitao4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/static/img/beitao5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/static/img/beitao6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/static/img/goods_img1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/static/img/goods_img2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/static/img/goods_img3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/static/img/goods_img4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/static/img/goods_img5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/static/img/goods_img6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/static/img/goods_img7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/static/img/goods_img8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/static/img/goods_img9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/static/img/home_img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/static/img/home_img10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/static/img/home_img11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/static/img/home_img12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/static/img/home_img13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/static/img/home_img14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/static/img/home_img15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/static/img/home_img16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/static/img/home_img17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/static/img/home_img18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/static/img/home_img19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/static/img/home_img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/static/img/home_img20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/static/img/home_img21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/static/img/home_img3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/static/img/home_img4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/static/img/home_img5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/static/img/home_img6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/static/img/home_img7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/static/img/home_img8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/static/img/home_img9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/static/img/load_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/static/img/paging_banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/static/img/paging_img1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/static/img/paging_img2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/static/img/paging_img3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/static/img/paging_img4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/static/img/paging_img5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/static/img/paging_img6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/static/img/person.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/static/img/shopnone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/static/img/us_banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/static/img/us_img1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/static/img/us_img2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/static/img/us_img3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/static/img/us_img4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/static/img/us_img5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/static/img/us_imgbg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/static/js/house.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/static/res/static/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/templates/base/bottom.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/templates/base/head.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/templates/index.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/templates/member/login.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/templates/member/qqlogin.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/templates/member/register.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-member/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-member/src/main/resources/mybatis/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meite-shop-service-api/meite-shop-service-api-member/src/main/java/com/adminsys/service/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-api/meite-shop-service-api-member/src/main/java/com/adminsys/service/MemberService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meite-shop-common/meite-shop-common-core/src/main/java/com/adminsys/constants/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-common/meite-shop-common-core/src/main/java/com/adminsys/constants/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meite-shop-common/meite-shop-common-core/src/main/java/com/adminsys/utils/MD5Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-common/meite-shop-common-core/src/main/java/com/adminsys/utils/MD5Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meite-shop-common/meite-shop-common-core/src/main/java/com/adminsys/utils/RedisUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-common/meite-shop-common-core/src/main/java/com/adminsys/utils/RedisUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meite-shop-common/meite-shop-common-core/target/classes/com/adminsys/constants/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-common/meite-shop-common-core/target/classes/com/adminsys/constants/Constants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meite-shop-common/meite-shop-common-core/target/classes/com/adminsys/utils/MD5Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-common/meite-shop-common-core/target/classes/com/adminsys/utils/MD5Util.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meite-shop-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meite-shop-portal/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-portal/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meite-shop-service-api/meite-shop-service-api-member/target/classes/com/adminsys/service/MemberService.class" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-api/meite-shop-service-api-member/target/classes/com/adminsys/service/MemberService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-member/src/main/java/com/adminsys/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-member/src/main/java/com/adminsys/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-member/src/main/java/com/adminsys/mapper/UserTokenMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-member/src/main/java/com/adminsys/mapper/UserTokenMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-member/src/main/java/com/adminsys/mapper/entity/UserDo.java" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-member/src/main/java/com/adminsys/mapper/entity/UserDo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-member/src/main/java/com/adminsys/service/MemberServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-member/src/main/java/com/adminsys/service/MemberServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-member/src/main/java/com/adminsys/service/MemberLoginServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-member/src/main/java/com/adminsys/service/MemberLoginServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-member/src/main/java/com/adminsys/service/MemberRegisterServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-member/src/main/java/com/adminsys/service/MemberRegisterServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-member/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-member/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-member/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-member/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-member/target/classes/com/adminsys/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-member/target/classes/com/adminsys/mapper/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-member/target/classes/com/adminsys/mapper/entity/UserDo.class" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-member/target/classes/com/adminsys/mapper/entity/UserDo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-member/target/classes/com/adminsys/service/MemberRegisterServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-member/target/classes/com/adminsys/service/MemberRegisterServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-member/target/classes/com/adminsys/service/MemberServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-member/target/classes/com/adminsys/service/MemberServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meite-shop-service-impl/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-impl/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,6 +240,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="mybatis.xml" />
         <option value="Class" />
       </list>
     </option>
@@ -64,24 +275,26 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/meite-shop-common/meite-shop-common-core/src/main/java/com/adminsys/utils" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/java/com/adminsys/portal/web/constants" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.other" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.adminsys.portal.feign" />
+      <recent name="com.adminsys.portal.bean" />
+      <recent name="com.adminsys.utils" />
       <recent name="com.adminsys.member.output.dto" />
       <recent name="com.adminsys.member.input.dto" />
-      <recent name="com.adminsys.weixin.entity" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/meite-shop-common/meite-shop-common-core/src/main/java/com/adminsys/utils" />
-      <recent name="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-member/src/main/java/com/adminsys/mapper/entity" />
-      <recent name="$PROJECT_DIR$/meite-shop-common/meite-shop-common-core/src/main/java/com/adminsys" />
-      <recent name="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-springcloud-zuul/src/main/resources" />
-      <recent name="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-member/src/main/resources" />
+      <recent name="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/java/com/adminsys/portal/web/constants" />
+      <recent name="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/java/com/adminsys/portal/feign" />
+      <recent name="$PROJECT_DIR$/meite-shop-common/meite-shop-common-web-core/src/main/java/com/adminsys/utils" />
+      <recent name="$PROJECT_DIR$/meite-shop-common/meite-shop-common-web-core/src/main/java/com/adminsys/bean" />
+      <recent name="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -97,6 +310,19 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.AppMember">
+    <configuration name="MD5Util" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.adminsys.utils.MD5Util" />
+      <module name="meite-shop-common-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.adminsys.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AppEureka" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="meite-shop-basics-springcloud-erueka" />
       <extension name="coverage">
@@ -136,15 +362,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppWeiXin" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="com-shop-service-weixin" />
+    <configuration name="AppPortal" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="meite-shop-portal-web" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.adminsys.*" />
+          <option name="PATTERN" value="com.adminsys.portal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.adminsys.AppWeiXin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.adminsys.portal.AppPortal" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -152,9 +378,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.AppMember" />
-        <item itemvalue="Spring Boot.AppGateWay" />
+        <item itemvalue="Spring Boot.AppPortal" />
         <item itemvalue="Spring Boot.AppEureka" />
-        <item itemvalue="Spring Boot.AppWeiXin" />
+        <item itemvalue="Application.MD5Util" />
+        <item itemvalue="Spring Boot.AppGateWay" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +409,11 @@
       <workItem from="1577178084135" duration="1763000" />
       <workItem from="1577238816006" duration="5884000" />
       <workItem from="1577252176676" duration="83000" />
-      <workItem from="1577322465460" duration="8380000" />
+      <workItem from="1577322465460" duration="8679000" />
+      <workItem from="1577414924981" duration="6938000" />
+      <workItem from="1577438976309" duration="8994000" />
+      <workItem from="1577499090110" duration="5844000" />
+      <workItem from="1577511593726" duration="7544000" />
     </task>
     <servers />
   </component>
@@ -204,5 +435,31 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-member/src/main/java/com/adminsys/service/MemberLoginServiceImpl.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-member/src/main/java/com/adminsys/service/MemberLoginServiceImpl.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-member/src/main/java/com/adminsys/service/MemberLoginServiceImpl.java</url>
+          <line>79</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/java/com/adminsys/portal/controller/IndexController.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

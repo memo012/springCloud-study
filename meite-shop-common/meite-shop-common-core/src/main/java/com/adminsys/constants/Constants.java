@@ -51,9 +51,9 @@ public interface Constants {
 	Long WEIXINCODE_TIMEOUT = 1800L;
 
 	/**
-	 *  用户信息不存在
+	 *  用户已存在
 	 */
-	Integer HTTP_RES_CODE_EXISTMOBILE_203 = 203;
+	Integer HTTP_RES_CODE_EXISTMOBILE_204 = 204;
 
 	/**
 	 *  token

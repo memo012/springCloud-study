@@ -17,7 +17,7 @@ public class RedisUtil {
 
 	/**
 	 * 存放string类型
-	 * 
+	 *
 	 * @param key
 	 *            key
 	 * @param data
@@ -41,7 +41,7 @@ public class RedisUtil {
 
 	/**
 	 * 开启Redis 事务
-	 * 
+	 *
 	 * @param
 	 */
 	public void begin() {
@@ -54,7 +54,7 @@ public class RedisUtil {
 
 	/**
 	 * 提交事务
-	 * 
+	 *
 	 * @param
 	 */
 	public void exec() {
@@ -71,7 +71,7 @@ public class RedisUtil {
 
 	/**
 	 * 存放string类型
-	 * 
+	 *
 	 * @param key
 	 *            key
 	 * @param data
@@ -83,7 +83,7 @@ public class RedisUtil {
 
 	/**
 	 * 根据key查询string类型
-	 * 
+	 *
 	 * @param key
 	 * @return
 	 */
@@ -94,11 +94,13 @@ public class RedisUtil {
 
 	/**
 	 * 根据对应的key删除key
-	 * 
+	 *
 	 * @param key
 	 */
 	public Boolean delKey(String key) {
 		return stringRedisTemplate.delete(key);
-
 	}
+
+
+
 }

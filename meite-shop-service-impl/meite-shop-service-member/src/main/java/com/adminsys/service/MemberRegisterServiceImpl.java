@@ -3,15 +3,18 @@ package com.adminsys.service;
 import com.adminsys.base.BaseApiService;
 import com.adminsys.base.BaseResponse;
 import com.adminsys.bean.BeanUtil;
+import com.adminsys.constants.Constants;
 import com.adminsys.feign.VerificaCodeServiceFeign;
 import com.adminsys.mapper.UserMapper;
 import com.adminsys.mapper.entity.UserDo;
 import com.adminsys.member.input.dto.UserInputDTO;
 import com.adminsys.utils.MD5Util;
+import com.adminsys.utils.TimeUtil;
 import com.alibaba.fastjson.JSONObject;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
@@ -29,13 +32,16 @@ public class MemberRegisterServiceImpl extends BaseApiService<JSONObject> implem
     @Autowired
     private VerificaCodeServiceFeign verificaCodeServiceFeign;
 
+    @Autowired
+    private MemberService memberService;
+
     @Override
-    public BaseResponse<JSONObject> register(@RequestBody UserInputDTO userEntity, String registCode) {
+    public BaseResponse<JSONObject> register(@RequestBody UserInputDTO userEntity,@RequestParam("registCode") String registCode) {
         // 1 参数验证
-        String userName = userEntity.getUserName();
-        if(StringUtils.isEmpty(userName)){
-            return setResultError("用户名称不能为空!");
-        }
+//        String userName = userEntity.getUserName();
+//        if(StringUtils.isEmpty(userName)){
+//            return setResultError("用户名称不能为空!");
+//        }
         String mobile = userEntity.getMobile();
         if(StringUtils.isEmpty(mobile)){
             return setResultError("手机号不能为空!");
@@ -44,6 +50,10 @@ public class MemberRegisterServiceImpl extends BaseApiService<JSONObject> implem
         if(StringUtils.isEmpty(password)){
             return setResultError("密码不能为空!");
         }
+        // 查询该手机号是否已注册
+        if(memberService.existMobile(mobile).getCode().equals(Constants.HTTP_RES_CODE_200)){
+            return setResultError(Constants.HTTP_RES_CODE_EXISTMOBILE_204, "该手机号已注册");
+        }
         // 2 验证注册码是否正确
         verificaCodeServiceFeign.verificaWeixinCode(mobile, registCode);
         // 3 对用户密码进行加密
@@ -51,6 +61,7 @@ public class MemberRegisterServiceImpl extends BaseApiService<JSONObject> implem
         userEntity.setPassword(newPwd);
         // 4 将请求的dto参数转换DO
         UserDo userDo = BeanUtil.dtoToDo(userEntity, UserDo.class);
+        userDo.setUserId(Long.parseLong(new TimeUtil().getLongTime().substring(1, 7)));
         // 5 调用数据库插入数据
         return userMapper.register(userDo) > 0 ? setResultSuccess("注册成功") : setResultError("注册失败");
     }

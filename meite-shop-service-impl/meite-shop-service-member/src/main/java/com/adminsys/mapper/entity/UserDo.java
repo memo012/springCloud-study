@@ -56,7 +56,7 @@ public class UserDo {
 	/**
 	 * 账号是否可以用 1 正常 0冻结
 	 */
-	private char isAvalible;
+	private char isAvailable;
 	/**
 	 * 用户头像
 	 */
