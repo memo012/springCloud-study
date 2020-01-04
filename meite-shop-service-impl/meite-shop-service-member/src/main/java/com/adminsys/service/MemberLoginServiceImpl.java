@@ -46,6 +46,7 @@ public class MemberLoginServiceImpl extends BaseApiService<JSONObject> implement
     @Resource
     private RedisDataSourceTransaction manualTransaction;
 
+
     @Override
     public BaseResponse<JSONObject> login(@RequestBody UserLoginInpDTO userLoginInpDTO) {
         // 1.验证参数

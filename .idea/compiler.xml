@@ -6,17 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="meite-shop-basics-springcloud-erueka" />
-        <module name="meite-shop-service-api-weixin" />
-        <module name="meite-shop-portal-web" />
-        <module name="meite-shop-service-member" />
-        <module name="meite-shop-basics-springcloud-zuul" />
-        <module name="meite-shop-common-core" />
-        <module name="meite-shop-api-weixin-dto" />
-        <module name="meite-shop-service-api-member" />
-        <module name="meite-shop-api-member-dto" />
-        <module name="meite-shop-common-web-core" />
+        <module name="meite-shop-basics-xxl-sso-server" />
         <module name="com-shop-service-weixin" />
+        <module name="meite-shop-api-member-dto" />
+        <module name="meite-shop-service-member" />
+        <module name="meite-shop-basics-springcloud-erueka" />
+        <module name="meite-shop-common-core" />
+        <module name="meite-shop-service-api-member" />
+        <module name="meite-shop-portal-pay-web" />
+        <module name="meite-shop-basics-springcloud-zuul" />
+        <module name="meite-shop-portal-web" />
+        <module name="meite-shop-api-weixin-dto" />
+        <module name="meite-shop-common-web-core" />
+        <module name="meite-shop-service-api-weixin" />
+        <module name="xxl-sso-core" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -38,13 +41,16 @@
       <module name="meite-shop-basics-springcloud-erueka" options="-parameters" />
       <module name="meite-shop-basics-springcloud-eureka" options="-parameters" />
       <module name="meite-shop-basics-springcloud-zuul" options="-parameters" />
+      <module name="meite-shop-basics-xxl-sso-server" options="-parameters" />
       <module name="meite-shop-common-core" options="-parameters" />
       <module name="meite-shop-common-web-core" options="-parameters" />
+      <module name="meite-shop-portal-pay-web" options="-parameters" />
       <module name="meite-shop-portal-web" options="-parameters" />
       <module name="meite-shop-service-api-member" options="-parameters" />
       <module name="meite-shop-service-api-member-entity" options="-parameters" />
       <module name="meite-shop-service-api-weixin" options="-parameters" />
       <module name="meite-shop-service-member" options="-parameters" />
+      <module name="xxl-sso-core" options="-parameters" />
     </option>
   </component>
 </project>

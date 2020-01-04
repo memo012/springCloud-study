@@ -12,25 +12,9 @@
     <artifactId>meite-shop-portal-web</artifactId>
     <packaging>jar</packaging>
     <dependencies>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-freemarker</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>com.meite</groupId>
-            <artifactId>meite-shop-common-web-core</artifactId>
-            <version>1.0-RELEASE</version>
-        </dependency>
 
         <dependency>
             <artifactId>meite-shop-api-member-dto</artifactId>
-            <groupId>com.meite</groupId>
-            <version>1.0-RELEASE</version>
-        </dependency>
-
-        <dependency>
-            <artifactId>meite-shop-service-api-member</artifactId>
             <groupId>com.meite</groupId>
             <version>1.0-RELEASE</version>
         </dependency>

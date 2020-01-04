@@ -14,7 +14,6 @@
         <module>meite-shop-service-impl</module>
         <module>meite-shop-common</module>
         <module>meite-shop-portal</module>
-        <module>meite-shop-api-entitys</module>
         <module>meite-shop-api-dto</module>
     </modules>
 

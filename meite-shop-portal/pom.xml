@@ -13,12 +13,35 @@
     <packaging>pom</packaging>
     <modules>
         <module>meite-shop-portal-web</module>
+        <module>meite-shop-portal-pay-web</module>
     </modules>
     <dependencies>
         <!--        feign依赖-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-openfeign</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-freemarker</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.meite</groupId>
+            <artifactId>meite-shop-common-web-core</artifactId>
+            <version>1.0-RELEASE</version>
+        </dependency>
+        <dependency>
+            <artifactId>meite-shop-service-api-member</artifactId>
+            <groupId>com.meite</groupId>
+            <version>1.0-RELEASE</version>
+        </dependency>
+
+
+        <!-- sso core -->
+        <dependency>
+            <groupId>com.meite</groupId>
+            <artifactId>xxl-sso-core</artifactId>
+            <version>1.0-RELEASE</version>
         </dependency>
 
 
