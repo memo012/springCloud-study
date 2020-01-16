@@ -25,8 +25,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class MemberServiceImpl extends BaseApiService<UserOutDTO> implements MemberService {
 
-//    @Resource
-//    private WeiXinAppServiceFeign weiXinAppServiceFeign;
 
     @Autowired
     private UserMapper userMapper;

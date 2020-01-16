@@ -5,158 +5,74 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e1353b5-38c7-492c-978f-e951af44da73" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/meite-shop-basics-xxl-sso-server.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/java/com/xxl/sso/server/XxlSsoServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/java/com/xxl/sso/server/config/XxlSsoConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/java/com/xxl/sso/server/controller/AppController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/java/com/xxl/sso/server/controller/WebController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/java/com/xxl/sso/server/controller/interceptor/MyWebMvcConfigurer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/java/com/xxl/sso/server/controller/interceptor/PermissionInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/java/com/xxl/sso/server/controller/resolver/WebExceptionResolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/java/com/xxl/sso/server/core/model/UserInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/java/com/xxl/sso/server/core/result/ReturnT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/java/com/xxl/sso/server/feign/MemberServiceFeign.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/java/com/xxl/sso/server/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/java/com/xxl/sso/server/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/static/adminlte/bootstrap/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/static/adminlte/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/static/adminlte/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/static/adminlte/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/static/adminlte/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/static/adminlte/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/static/adminlte/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/static/adminlte/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/static/adminlte/dist/css/AdminLTE-local.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/static/adminlte/dist/css/AdminLTE.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/static/adminlte/dist/css/google-local/fonts/M2Jd71oPJhLKp0zdtTvoM40tgx99jmYGv_xzYuwd1rU.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/static/adminlte/dist/css/google-local/fonts/M2Jd71oPJhLKp0zdtTvoM7YHq4FgHI02B8rPccK0FJQ.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/static/adminlte/dist/css/google-local/fonts/M2Jd71oPJhLKp0zdtTvoMxgy2Fsj5sj3EzlXpqVXRKo.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/static/adminlte/dist/css/google-local/fonts/ODelI1aHBYDBqgeIAH2zlC2Q8seG17bfDXYR_jUsrzg.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/static/adminlte/dist/css/google-local/fonts/ODelI1aHBYDBqgeIAH2zlNOAHFN6BivSraYkjhveRHY.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/static/adminlte/dist/css/google-local/fonts/ODelI1aHBYDBqgeIAH2zlNOAHFN6BivSraYkjhveRHY[0].woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/static/adminlte/dist/css/google-local/fonts/ODelI1aHBYDBqgeIAH2zlNV_2ngZ8dMf8fLgjYEouxg.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/static/adminlte/dist/css/google-local/fonts/fpTVHK8qsXbIeTHTrnQH6CzM2XYAq8cDhaXsrN8WXcA.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/static/adminlte/dist/css/google-local/fonts/fpTVHK8qsXbIeTHTrnQH6E78GtRp3lhchupCJNw8t58.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/static/adminlte/dist/css/google-local/fonts/fpTVHK8qsXbIeTHTrnQH6GQKuzMuncr0JB710wa2dPI.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/static/adminlte/dist/css/google-local/fonts/fpTVHK8qsXbIeTHTrnQH6Lpx497t94oDua8KfAL9f-E.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/static/adminlte/dist/css/google-local/fonts/fpTVHK8qsXbIeTHTrnQH6MAjkyiewWYrWZc50I8hK7I.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/static/adminlte/dist/css/google-local/fonts/fpTVHK8qsXbIeTHTrnQH6OXKTZYPNtG1yMB_YJSqlic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/static/adminlte/dist/css/google-local/fonts/toadOcfmlt9b38dHJxOBGCOFnW3Jk0f09zW_Yln67Ac.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/static/adminlte/dist/css/google-local/fonts/toadOcfmlt9b38dHJxOBGClYwVOhDRq2vbpGRTZ7bbs.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/static/adminlte/dist/css/google-local/fonts/toadOcfmlt9b38dHJxOBGDRVvBvQIc1z78c__uoBcyI.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/static/adminlte/dist/css/google-local/fonts/toadOcfmlt9b38dHJxOBGD_j0nMiB9fPhg_k1wdK2h0.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/static/adminlte/dist/css/google-local/fonts/toadOcfmlt9b38dHJxOBGDovqjS_dXPZszO_XltPdNg.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/static/adminlte/dist/css/google-local/fonts/toadOcfmlt9b38dHJxOBGEo0As1BFRXtCDhS66znb_k.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/static/adminlte/dist/css/google-local/fonts/toadOcfmlt9b38dHJxOBGFKFh1TDTPrUZWzVp6FtpG8.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/static/adminlte/dist/css/google-local/fonts/toadOcfmlt9b38dHJxOBGFxe-GPfKKFmiXaJ_Q0GFr8.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/static/adminlte/dist/css/google-local/fonts/toadOcfmlt9b38dHJxOBGOode0-EuMkY--TSyExeINg.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/static/adminlte/dist/css/google-local/local.google.fonts.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/static/adminlte/dist/css/skins/_all-skins.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/static/adminlte/dist/js/app.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/static/adminlte/plugins/fastclick/fastclick.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/static/adminlte/plugins/iCheck/icheck.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/static/adminlte/plugins/iCheck/square/_all.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/static/adminlte/plugins/iCheck/square/aero.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/static/adminlte/plugins/iCheck/square/aero.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/static/adminlte/plugins/iCheck/square/aero@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/static/adminlte/plugins/iCheck/square/blue.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/static/adminlte/plugins/iCheck/square/blue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/static/adminlte/plugins/iCheck/square/blue@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/static/adminlte/plugins/iCheck/square/green.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/static/adminlte/plugins/iCheck/square/green.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/static/adminlte/plugins/iCheck/square/green@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/static/adminlte/plugins/iCheck/square/grey.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/static/adminlte/plugins/iCheck/square/grey.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/static/adminlte/plugins/iCheck/square/grey@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/static/adminlte/plugins/iCheck/square/orange.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/static/adminlte/plugins/iCheck/square/orange.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/static/adminlte/plugins/iCheck/square/orange@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/static/adminlte/plugins/iCheck/square/pink.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/static/adminlte/plugins/iCheck/square/pink.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/static/adminlte/plugins/iCheck/square/pink@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/static/adminlte/plugins/iCheck/square/purple.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/static/adminlte/plugins/iCheck/square/purple.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/static/adminlte/plugins/iCheck/square/purple@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/static/adminlte/plugins/iCheck/square/red.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/static/adminlte/plugins/iCheck/square/red.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/static/adminlte/plugins/iCheck/square/red@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/static/adminlte/plugins/iCheck/square/square.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/static/adminlte/plugins/iCheck/square/square.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/static/adminlte/plugins/iCheck/square/square@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/static/adminlte/plugins/iCheck/square/yellow.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/static/adminlte/plugins/iCheck/square/yellow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/static/adminlte/plugins/iCheck/square/yellow@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/static/adminlte/plugins/jQuery/jquery-2.2.3.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/static/adminlte/plugins/slimScroll/jquery.slimscroll.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/static/js/common.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/static/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/static/js/login.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/static/plugins/font-awesome-4.5.0/css/font-awesome.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/static/plugins/font-awesome-4.5.0/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/static/plugins/font-awesome-4.5.0/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/static/plugins/font-awesome-4.5.0/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/static/plugins/font-awesome-4.5.0/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/static/plugins/font-awesome-4.5.0/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/static/plugins/font-awesome-4.5.0/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/static/plugins/font-awesome-4.5.0/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/static/plugins/ionicons-2.0.1/css/ionicons.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/static/plugins/ionicons-2.0.1/fonts/ionicons.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/static/plugins/ionicons-2.0.1/fonts/ionicons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/static/plugins/ionicons-2.0.1/fonts/ionicons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/static/plugins/ionicons-2.0.1/fonts/ionicons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/templates/common/common.exception.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/templates/common/common.macro.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/templates/index.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources/templates/login.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/xxl-sso-core/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/xxl-sso-core/src/main/java/com/xxl/sso/core/conf/Conf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/xxl-sso-core/src/main/java/com/xxl/sso/core/entity/ReturnT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/xxl-sso-core/src/main/java/com/xxl/sso/core/exception/XxlSsoException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/xxl-sso-core/src/main/java/com/xxl/sso/core/filter/XxlSsoTokenFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/xxl-sso-core/src/main/java/com/xxl/sso/core/filter/XxlSsoWebFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/xxl-sso-core/src/main/java/com/xxl/sso/core/login/SsoTokenLoginHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/xxl-sso-core/src/main/java/com/xxl/sso/core/login/SsoWebLoginHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/xxl-sso-core/src/main/java/com/xxl/sso/core/path/PathMatcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/xxl-sso-core/src/main/java/com/xxl/sso/core/path/impl/AntPathMatcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/xxl-sso-core/src/main/java/com/xxl/sso/core/store/SsoLoginStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/xxl-sso-core/src/main/java/com/xxl/sso/core/store/SsoSessionIdHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/xxl-sso-core/src/main/java/com/xxl/sso/core/user/XxlSsoUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/xxl-sso-core/src/main/java/com/xxl/sso/core/util/CookieUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/xxl-sso-core/src/main/java/com/xxl/sso/core/util/JedisUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/xxl-sso-core/src/main/java/com/xxl/sso/core/util/StringUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/xxl-sso-core/xxl-sso-core.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-pay-web/meite-shop-portal-pay-web.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-pay-web/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-pay-web/src/main/java/com/adminsys/AppPay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-pay-web/src/main/java/com/adminsys/config/XxlSsoConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-pay-web/src/main/java/com/adminsys/controller/PayController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-pay-web/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-pay-web/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-pay-web/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-pay-web/src/main/resources/templates/index.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/java/com/adminsys/portal/config/XxlSsoConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-api-dto/meite-shop-api-goods-dto/meite-shop-api-goods-dto.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-api-dto/meite-shop-api-goods-dto/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-api-dto/meite-shop-api-goods-dto/src/main/java/com/adminsys/goods/dto/ProductDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-api-dto/meite-shop-api-pay-dto/meite-shop-api-pay-dto.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-api-dto/meite-shop-api-pay-dto/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-api-dto/meite-shop-api-pay-dto/src/main/java/com/adminsys/pay/input/PayCratePayTokenDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-api-dto/meite-shop-api-pay-dto/src/main/java/com/adminsys/pay/output/PayMentTransacDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-api-dto/meite-shop-api-pay-dto/src/main/java/com/adminsys/pay/output/PaymentChannelDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-common/meite-shop-common-core/src/main/java/com/adminsys/mapper/MapperUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-common/meite-shop-common-core/src/main/java/com/adminsys/twitter/SnowflakeIdUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-common/meite-shop-common-core/src/main/java/com/adminsys/twitter/SnowflakeIdWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-pay-web/src/main/java/com/adminsys/controller/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-pay-web/src/main/java/com/adminsys/feign/PayMentTransacInfoFeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-pay-web/src/main/java/com/adminsys/feign/PaymentChannelFeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-pay-web/src/main/resources/templates/500.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-service-api/meite-shop-service-api-goods/meite-shop-service-api-goods.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-service-api/meite-shop-service-api-goods/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-service-api/meite-shop-service-api-pay/meite-shop-service-api-pay.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-service-api/meite-shop-service-api-pay/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-service-api/meite-shop-service-api-pay/src/main/java/com/adminsys/service/PayContextService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-service-api/meite-shop-service-api-pay/src/main/java/com/adminsys/service/PayMentTransacInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-service-api/meite-shop-service-api-pay/src/main/java/com/adminsys/service/PayMentTransacTokenService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-service-api/meite-shop-service-api-pay/src/main/java/com/adminsys/service/PaymentChannelService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/meite-shop-service-pay.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/java/com/adminsys/AppPays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/java/com/adminsys/dao/PaymentChannelMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/java/com/adminsys/dao/PaymentTransactionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/java/com/adminsys/dao/entity/PaymentChannelEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/java/com/adminsys/dao/entity/PaymentTransactionEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/java/com/adminsys/factory/StrategyFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/java/com/adminsys/impl/PayContextServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/java/com/adminsys/impl/PayMentTransacInfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/java/com/adminsys/impl/PayMentTransacTokenServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/java/com/adminsys/impl/PaymentChannelServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/java/com/adminsys/strategy/PayStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/java/com/adminsys/strategy/impl/AliPayStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/java/com/adminsys/strategy/impl/UnionPayStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/resources/mybatis/mybatis-config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meite-shop-basics/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-basics/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meite-shop-portal/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-portal/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meite-shop-service-api/meite-shop-service-api-member/src/main/java/com/adminsys/service/MemberLoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-api/meite-shop-service-api-member/src/main/java/com/adminsys/service/MemberLoginService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meite-shop-service-api/meite-shop-service-api-member/src/main/java/com/adminsys/service/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-api/meite-shop-service-api-member/src/main/java/com/adminsys/service/MemberService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meite-shop-service-api/meite-shop-service-api-member/target/classes/com/adminsys/service/MemberService.class" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-api/meite-shop-service-api-member/target/classes/com/adminsys/service/MemberService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-member/src/main/java/com/adminsys/service/MemberLoginServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-member/src/main/java/com/adminsys/service/MemberLoginServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meite-shop-api-dto/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-api-dto/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-springcloud-zuul/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-springcloud-zuul/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-springcloud-zuul/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-springcloud-zuul/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meite-shop-common/meite-shop-common-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-common/meite-shop-common-core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meite-shop-common/meite-shop-common-core/src/main/java/com/adminsys/utils/RedisUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-common/meite-shop-common-core/src/main/java/com/adminsys/utils/RedisUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meite-shop-common/meite-shop-common-core/target/classes/com/adminsys/utils/RedisUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-common/meite-shop-common-core/target/classes/com/adminsys/utils/RedisUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meite-shop-common/meite-shop-common-web-core/src/main/java/com/adminsys/bean/BaseWebController.java" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-common/meite-shop-common-web-core/src/main/java/com/adminsys/bean/BaseWebController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meite-shop-common/meite-shop-common-web-core/target/classes/com/adminsys/bean/BaseWebController.class" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-common/meite-shop-common-web-core/target/classes/com/adminsys/bean/BaseWebController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-pay-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-pay-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-pay-web/src/main/java/com/adminsys/AppPay.java" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-pay-web/src/main/java/com/adminsys/AppPay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-pay-web/src/main/java/com/adminsys/config/XxlSsoConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-pay-web/src/main/java/com/adminsys/config/XxlSsoConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-pay-web/src/main/java/com/adminsys/controller/PayController.java" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-pay-web/src/main/java/com/adminsys/controller/PayController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-pay-web/src/main/resources/templates/index.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-pay-web/src/main/resources/templates/index.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-pay-web/target/classes/com/adminsys/AppPay.class" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-pay-web/target/classes/com/adminsys/AppPay.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-pay-web/target/classes/com/adminsys/config/XxlSsoConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-pay-web/target/classes/com/adminsys/controller/PayController.class" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-pay-web/target/classes/com/adminsys/controller/PayController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-pay-web/target/classes/templates/index.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-pay-web/target/classes/templates/index.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meite-shop-service-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meite-shop-service-impl/com-shop-service-weixin/src/main/java/com/adminsys/service/impl/VerificaCodeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-impl/com-shop-service-weixin/src/main/java/com/adminsys/service/impl/VerificaCodeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meite-shop-service-impl/com-shop-service-weixin/target/classes/com/adminsys/service/impl/VerificaCodeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-impl/com-shop-service-weixin/target/classes/com/adminsys/service/impl/VerificaCodeServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-member/src/main/java/com/adminsys/service/MemberServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-member/src/main/java/com/adminsys/service/MemberServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-member/target/classes/com/adminsys/service/MemberLoginServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-member/target/classes/com/adminsys/service/MemberLoginServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-member/target/classes/com/adminsys/service/MemberServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-member/target/classes/com/adminsys/service/MemberServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meite-shop-service-impl/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-impl/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -167,8 +83,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="mybatis.xml" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -203,26 +119,26 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-pay-web/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/java/com/adminsys/strategy" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.adminsys.strategy.impl" />
       <recent name="com.adminsys.config" />
       <recent name="com.adminsys.portal.config" />
       <recent name="com.adminsys.portal.feign" />
       <recent name="com.adminsys.portal.bean" />
-      <recent name="com.adminsys.utils" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-pay-web/src/main/resources" />
-      <recent name="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web/src/main/resources" />
-      <recent name="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/resources" />
-      <recent name="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-xxl-sso-server/src/main/java" />
-      <recent name="$PROJECT_DIR$/meite-shop-basics/xxl-sso-core/src/main/java" />
+      <recent name="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/java/com/adminsys/strategy" />
+      <recent name="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-pay-web/src/main/java/com/adminsys" />
+      <recent name="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-pay-web/src/main/resources/templates" />
+      <recent name="$PROJECT_DIR$/meite-shop-common/meite-shop-common-core/src/main/java/com/adminsys" />
+      <recent name="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pays/src/main/java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -237,7 +153,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.AppPay">
+  <component name="RunManager" selected="Spring Boot.AppPays">
     <configuration name="AppEureka" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="meite-shop-basics-springcloud-erueka" />
       <extension name="coverage">
@@ -277,15 +193,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppPortal" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="meite-shop-portal-web" />
+    <configuration name="AppPays" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="meite-shop-service-pay" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.adminsys.portal.*" />
+          <option name="PATTERN" value="com.adminsys.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.adminsys.portal.AppPortal" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.adminsys.AppPays" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -305,10 +221,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.AppPays" />
         <item itemvalue="Spring Boot.AppPay" />
-        <item itemvalue="Spring Boot.AppPortal" />
-        <item itemvalue="Spring Boot.XxlSsoServerApplication" />
         <item itemvalue="Spring Boot.AppMember" />
+        <item itemvalue="Spring Boot.XxlSsoServerApplication" />
         <item itemvalue="Spring Boot.AppEureka" />
       </list>
     </recent_temporary>
@@ -349,6 +265,17 @@
       <workItem from="1578012688559" duration="130000" />
       <workItem from="1578114606985" duration="1131000" />
       <workItem from="1578116987879" duration="10784000" />
+      <workItem from="1578198632593" duration="820000" />
+      <workItem from="1578299267144" duration="799000" />
+      <workItem from="1578659386784" duration="1658000" />
+      <workItem from="1578708479555" duration="5043000" />
+      <workItem from="1578794505462" duration="710000" />
+      <workItem from="1578903526349" duration="103000" />
+      <workItem from="1578968615882" duration="5600000" />
+      <workItem from="1579057712693" duration="3789000" />
+      <workItem from="1579061706606" duration="1270000" />
+      <workItem from="1579143680780" duration="9805000" />
+      <workItem from="1579158233306" duration="4249000" />
     </task>
     <servers />
   </component>
@@ -370,5 +297,16 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/java/com/adminsys/impl/PayMentTransacTokenServiceImpl.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

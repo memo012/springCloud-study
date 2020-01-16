@@ -34,7 +34,7 @@ public class RedisUtil {
 			}
 
 		} catch (Exception e) {
-
+			System.out.println(e);
 		}
 
 	}

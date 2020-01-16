@@ -11,6 +11,13 @@
 
     <artifactId>meite-shop-portal-pay-web</artifactId>
     <packaging>jar</packaging>
+    <dependencies>
+        <dependency>
+            <groupId>com.meite</groupId>
+            <artifactId>meite-shop-service-api-pay</artifactId>
+            <version>1.0-RELEASE</version>
+        </dependency>
+    </dependencies>
 
 
 </project>

@@ -11,6 +11,9 @@
       <set>
         <option value="$PROJECT_DIR$/meite-shop-api-entitys/pom.xml" />
         <option value="$PROJECT_DIR$/meite-shop-basics/pom.xml" />
+        <option value="$PROJECT_DIR$/meite-shop-service-api/meite-shop-service-goods/pom.xml" />
+        <option value="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-goods/pom.xml" />
+        <option value="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pays/pom.xml" />
       </set>
     </option>
   </component>

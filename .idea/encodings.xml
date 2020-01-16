@@ -3,7 +3,9 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/meite-shop-api-dto" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/meite-shop-api-dto/meite-shop-api-goods-dto" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/meite-shop-api-dto/meite-shop-api-member-dto" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/meite-shop-api-dto/meite-shop-api-pay-dto" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/meite-shop-api-dto/meite-shop-api-weixin-dto" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/meite-shop-basics" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-springcloud-erueka" charset="UTF-8" />
@@ -17,10 +19,15 @@
     <file url="file://$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-pay-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/meite-shop-service-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/meite-shop-service-api/meite-shop-service-api-goods" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/meite-shop-service-api/meite-shop-service-api-member" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/meite-shop-service-api/meite-shop-service-api-pay" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/meite-shop-service-api/meite-shop-service-api-weixin" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/meite-shop-service-impl" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/meite-shop-service-impl/com-shop-service-weixin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-goods" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-member" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pays" charset="UTF-8" />
   </component>
 </project>

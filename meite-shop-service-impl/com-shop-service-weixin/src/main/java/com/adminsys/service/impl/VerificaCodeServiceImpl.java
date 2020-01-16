@@ -2,7 +2,6 @@ package com.adminsys.service.impl;
 
 import com.adminsys.base.BaseApiService;
 import com.adminsys.base.BaseResponse;
-import com.adminsys.constants.Constants;
 import com.adminsys.service.VerificaCodeService;
 import com.alibaba.fastjson.JSONObject;
 import org.apache.commons.lang3.StringUtils;
