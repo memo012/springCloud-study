@@ -5,74 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e1353b5-38c7-492c-978f-e951af44da73" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/meite-shop-api-dto/meite-shop-api-goods-dto/meite-shop-api-goods-dto.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-api-dto/meite-shop-api-goods-dto/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-api-dto/meite-shop-api-goods-dto/src/main/java/com/adminsys/goods/dto/ProductDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-api-dto/meite-shop-api-pay-dto/meite-shop-api-pay-dto.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-api-dto/meite-shop-api-pay-dto/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-api-dto/meite-shop-api-pay-dto/src/main/java/com/adminsys/pay/input/PayCratePayTokenDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-api-dto/meite-shop-api-pay-dto/src/main/java/com/adminsys/pay/output/PayMentTransacDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-api-dto/meite-shop-api-pay-dto/src/main/java/com/adminsys/pay/output/PaymentChannelDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-common/meite-shop-common-core/src/main/java/com/adminsys/mapper/MapperUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-common/meite-shop-common-core/src/main/java/com/adminsys/twitter/SnowflakeIdUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-common/meite-shop-common-core/src/main/java/com/adminsys/twitter/SnowflakeIdWorker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-pay-web/src/main/java/com/adminsys/controller/IndexController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-pay-web/src/main/java/com/adminsys/feign/PayMentTransacInfoFeign.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-pay-web/src/main/java/com/adminsys/feign/PaymentChannelFeign.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-pay-web/src/main/resources/templates/500.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-service-api/meite-shop-service-api-goods/meite-shop-service-api-goods.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-service-api/meite-shop-service-api-goods/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-service-api/meite-shop-service-api-pay/meite-shop-service-api-pay.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-service-api/meite-shop-service-api-pay/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-service-api/meite-shop-service-api-pay/src/main/java/com/adminsys/service/PayContextService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-service-api/meite-shop-service-api-pay/src/main/java/com/adminsys/service/PayMentTransacInfoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-service-api/meite-shop-service-api-pay/src/main/java/com/adminsys/service/PayMentTransacTokenService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-service-api/meite-shop-service-api-pay/src/main/java/com/adminsys/service/PaymentChannelService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/meite-shop-service-pay.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/java/com/adminsys/AppPays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/java/com/adminsys/dao/PaymentChannelMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/java/com/adminsys/dao/PaymentTransactionMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/java/com/adminsys/dao/entity/PaymentChannelEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/java/com/adminsys/dao/entity/PaymentTransactionEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/java/com/adminsys/factory/StrategyFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/java/com/adminsys/impl/PayContextServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/java/com/adminsys/impl/PayMentTransacInfoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/java/com/adminsys/impl/PayMentTransacTokenServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/java/com/adminsys/impl/PaymentChannelServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/java/com/adminsys/strategy/PayStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/java/com/adminsys/strategy/impl/AliPayStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/java/com/adminsys/strategy/impl/UnionPayStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/resources/mybatis/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-common/meite-shop-common-core/src/main/java/com/adminsys/utils/SpringContextUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-pay-plugin/meite-shop-alipay-plugin/meite-shop-alipay-plugin.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-pay-plugin/meite-shop-alipay-plugin/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-pay-plugin/meite-shop-alipay-plugin/src/main/java/com/alipay/config/AlipayConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-pay-plugin/meite-shop-pay-plugin.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-pay-plugin/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-pay-web/src/main/java/com/adminsys/feign/PayContextFeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/java/com/adminsys/callback/enums/PayTemplateName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/java/com/adminsys/callback/factory/TemplatesFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/java/com/adminsys/callback/templete/AbstractPayCallbackTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/java/com/adminsys/callback/templete/alipay/AliPayCallbackTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/java/com/adminsys/callback/templete/service/PayAsyncCallbackService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/java/com/adminsys/callback/templete/union/UnionPayCallbackTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/java/com/adminsys/constant/PayConstant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meite-shop-api-dto/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-api-dto/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-springcloud-zuul/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-springcloud-zuul/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-springcloud-zuul/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-springcloud-zuul/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meite-shop-common/meite-shop-common-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-common/meite-shop-common-core/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meite-shop-common/meite-shop-common-core/src/main/java/com/adminsys/utils/RedisUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-common/meite-shop-common-core/src/main/java/com/adminsys/utils/RedisUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meite-shop-common/meite-shop-common-core/target/classes/com/adminsys/utils/RedisUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-common/meite-shop-common-core/target/classes/com/adminsys/utils/RedisUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meite-shop-common/meite-shop-common-web-core/src/main/java/com/adminsys/bean/BaseWebController.java" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-common/meite-shop-common-web-core/src/main/java/com/adminsys/bean/BaseWebController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meite-shop-common/meite-shop-common-web-core/target/classes/com/adminsys/bean/BaseWebController.class" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-common/meite-shop-common-web-core/target/classes/com/adminsys/bean/BaseWebController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-pay-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-pay-web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-pay-web/src/main/java/com/adminsys/AppPay.java" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-pay-web/src/main/java/com/adminsys/AppPay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-pay-web/src/main/java/com/adminsys/config/XxlSsoConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-pay-web/src/main/java/com/adminsys/config/XxlSsoConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-pay-web/src/main/java/com/adminsys/controller/PayController.java" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-pay-web/src/main/java/com/adminsys/controller/PayController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-pay-web/src/main/java/com/adminsys/feign/PayMentTransacInfoFeign.java" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-pay-web/src/main/java/com/adminsys/feign/PayMentTransacInfoFeign.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-pay-web/src/main/java/com/adminsys/feign/PaymentChannelFeign.java" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-pay-web/src/main/java/com/adminsys/feign/PaymentChannelFeign.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-pay-web/src/main/resources/templates/index.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-pay-web/src/main/resources/templates/index.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-pay-web/target/classes/com/adminsys/AppPay.class" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-pay-web/target/classes/com/adminsys/AppPay.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-pay-web/target/classes/com/adminsys/config/XxlSsoConfig.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-pay-web/target/classes/com/adminsys/controller/PayController.class" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-pay-web/target/classes/com/adminsys/controller/PayController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-pay-web/target/classes/templates/index.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-pay-web/target/classes/templates/index.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meite-shop-service-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meite-shop-service-impl/com-shop-service-weixin/src/main/java/com/adminsys/service/impl/VerificaCodeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-impl/com-shop-service-weixin/src/main/java/com/adminsys/service/impl/VerificaCodeServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meite-shop-service-impl/com-shop-service-weixin/target/classes/com/adminsys/service/impl/VerificaCodeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-impl/com-shop-service-weixin/target/classes/com/adminsys/service/impl/VerificaCodeServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-member/src/main/java/com/adminsys/service/MemberServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-member/src/main/java/com/adminsys/service/MemberServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-member/target/classes/com/adminsys/service/MemberServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-member/target/classes/com/adminsys/service/MemberServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meite-shop-service-impl/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-impl/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meite-shop-service-api/meite-shop-service-api-pay/src/main/java/com/adminsys/service/PayContextService.java" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-api/meite-shop-service-api-pay/src/main/java/com/adminsys/service/PayContextService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meite-shop-service-api/meite-shop-service-api-pay/target/classes/com/adminsys/service/PayContextService.class" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-api/meite-shop-service-api-pay/target/classes/com/adminsys/service/PayContextService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/java/com/adminsys/dao/PaymentTransactionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/java/com/adminsys/dao/PaymentTransactionMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/java/com/adminsys/factory/StrategyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/java/com/adminsys/factory/StrategyFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/java/com/adminsys/strategy/impl/AliPayStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/java/com/adminsys/strategy/impl/AliPayStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/target/classes/com/adminsys/dao/PaymentTransactionMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/target/classes/com/adminsys/dao/PaymentTransactionMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/target/classes/com/adminsys/strategy/impl/AliPayStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/target/classes/com/adminsys/strategy/impl/AliPayStrategy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -85,6 +49,7 @@
       <list>
         <option value="mybatis.xml" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -119,26 +84,30 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/java/com/adminsys/strategy" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/meite-shop-common/meite-shop-common-core/src/main/java/com/adminsys/utils" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.adminsys.callback.factory" />
+      <recent name="com.adminsys.callback.templete.service" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.alipay.config" />
       <recent name="com.adminsys.strategy.impl" />
       <recent name="com.adminsys.config" />
       <recent name="com.adminsys.portal.config" />
       <recent name="com.adminsys.portal.feign" />
-      <recent name="com.adminsys.portal.bean" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/meite-shop-common/meite-shop-common-core/src/main/java/com/adminsys/utils" />
+      <recent name="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/java/com/adminsys" />
+      <recent name="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-pay-web/src/main/java/com/adminsys/feign" />
       <recent name="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/java/com/adminsys/strategy" />
       <recent name="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-pay-web/src/main/java/com/adminsys" />
-      <recent name="$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-pay-web/src/main/resources/templates" />
-      <recent name="$PROJECT_DIR$/meite-shop-common/meite-shop-common-core/src/main/java/com/adminsys" />
-      <recent name="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pays/src/main/java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -223,9 +192,9 @@
       <list>
         <item itemvalue="Spring Boot.AppPays" />
         <item itemvalue="Spring Boot.AppPay" />
+        <item itemvalue="Spring Boot.AppEureka" />
         <item itemvalue="Spring Boot.AppMember" />
         <item itemvalue="Spring Boot.XxlSsoServerApplication" />
-        <item itemvalue="Spring Boot.AppEureka" />
       </list>
     </recent_temporary>
   </component>
@@ -275,7 +244,10 @@
       <workItem from="1579057712693" duration="3789000" />
       <workItem from="1579061706606" duration="1270000" />
       <workItem from="1579143680780" duration="9805000" />
-      <workItem from="1579158233306" duration="4249000" />
+      <workItem from="1579158233306" duration="4353000" />
+      <workItem from="1579164554542" duration="2326000" />
+      <workItem from="1579174529285" duration="565000" />
+      <workItem from="1579252449448" duration="13461000" />
     </task>
     <servers />
   </component>
@@ -302,9 +274,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/java/com/adminsys/impl/PayMentTransacTokenServiceImpl.java</url>
-          <line>32</line>
-          <option name="timeStamp" value="3" />
+          <url>file://$PROJECT_DIR$/meite-shop-portal/meite-shop-portal-pay-web/src/main/java/com/adminsys/controller/PayController.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -3,25 +3,20 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>meite-shop-service-impl</artifactId>
+        <artifactId>meite-shop-pay-plugin</artifactId>
         <groupId>com.meite</groupId>
         <version>1.0-RELEASE</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>meite-shop-service-pay</artifactId>
+    <artifactId>meite-shop-alipay-plugin</artifactId>
     <packaging>jar</packaging>
 
     <dependencies>
         <dependency>
-            <artifactId>meite-shop-service-api-pay</artifactId>
-            <groupId>com.meite</groupId>
-            <version>1.0-RELEASE</version>
-        </dependency>
-        <dependency>
-            <artifactId>meite-shop-alipay-plugin</artifactId>
-            <groupId>com.meite</groupId>
-            <version>1.0-RELEASE</version>
+            <groupId>com.alipay.sdk</groupId>
+            <artifactId>alipay-sdk-java</artifactId>
+            <version>3.7.4.ALL</version>
         </dependency>
     </dependencies>
 

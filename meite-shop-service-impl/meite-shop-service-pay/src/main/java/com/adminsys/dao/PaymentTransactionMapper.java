@@ -1,9 +1,7 @@
 package com.adminsys.dao;
 
 import com.adminsys.dao.entity.PaymentTransactionEntity;
-import org.apache.ibatis.annotations.Insert;
-import org.apache.ibatis.annotations.Options;
-import org.apache.ibatis.annotations.Select;
+import org.apache.ibatis.annotations.*;
 import org.springframework.stereotype.Repository;
 
 /**
@@ -29,5 +27,22 @@ public interface PaymentTransactionMapper {
 	 */
 	@Select("SELECT * FROM payment_transaction WHERE id=#{id}")
 	public PaymentTransactionEntity selectById(Long id);
+
+	/**
+	 * 支付ID查看交易记录
+	 * @param paymentId
+	 * @return
+	 */
+	@Select("SELECT * FROM payment_transaction WHERE PAYMENT_ID=#{paymentId}")
+	public PaymentTransactionEntity selectByPaymentId(String paymentId);
+
+	/**
+	 *  更新交易支付状态
+	 * @param paymentStatus
+	 * @param paymentId
+	 * @return
+	 */
+	@Update("update payment_transaction SET PAYMENT_STATUS=#{paymentStatus} WHERE PAYMENT_ID=#{paymentId}; ")
+	public int updatePaymentStatus(@Param("paymentStatus") Integer paymentStatus, @Param("paymentId") String paymentId);
 	
 }

@@ -6,13 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="meite-shop-alipay-plugin" />
         <module name="meite-shop-api-goods-dto" />
         <module name="meite-shop-api-pay-dto" />
-        <module name="meite-shop-service-api-weixin" />
         <module name="com-shop-service-weixin" />
         <module name="meite-shop-api-member-dto" />
-        <module name="meite-shop-service-member" />
         <module name="meite-shop-service-pay" />
+        <module name="meite-shop-basics-xxl-sso-server" />
+        <module name="meite-shop-service-member" />
         <module name="meite-shop-basics-springcloud-erueka" />
         <module name="meite-shop-common-core" />
         <module name="meite-shop-service-api-member" />
@@ -21,7 +22,7 @@
         <module name="meite-shop-portal-web" />
         <module name="meite-shop-api-weixin-dto" />
         <module name="meite-shop-common-web-core" />
-        <module name="meite-shop-basics-xxl-sso-server" />
+        <module name="meite-shop-service-api-weixin" />
         <module name="xxl-sso-core" />
         <module name="meite-shop-service-api-pay" />
         <module name="meite-shop-service-api-goods" />
@@ -40,6 +41,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="com-shop-service-weixin" options="-parameters" />
+      <module name="meite-shop-alipay-plugin" options="-parameters" />
       <module name="meite-shop-api-dto" options="-parameters" />
       <module name="meite-shop-api-entitys" options="-parameters" />
       <module name="meite-shop-api-goods-dto" options="-parameters" />
@@ -53,6 +55,7 @@
       <module name="meite-shop-basics-xxl-sso-server" options="-parameters" />
       <module name="meite-shop-common-core" options="-parameters" />
       <module name="meite-shop-common-web-core" options="-parameters" />
+      <module name="meite-shop-pay-plugin" options="" />
       <module name="meite-shop-portal-pay-web" options="-parameters" />
       <module name="meite-shop-portal-web" options="-parameters" />
       <module name="meite-shop-service-api-goods" options="-parameters" />

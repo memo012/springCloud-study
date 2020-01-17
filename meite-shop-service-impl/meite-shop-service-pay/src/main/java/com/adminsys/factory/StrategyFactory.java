@@ -14,7 +14,7 @@ import java.util.concurrent.ConcurrentHashMap;
  **/
 public class StrategyFactory {
 
-    private static Map<String, PayStrategy> strategyBean = new ConcurrentHashMap<String, PayStrategy>();
+    private static Map<String, PayStrategy> strategyBean = new ConcurrentHashMap<>();
 
     // 思考几个点：
     public static PayStrategy getPayStrategy(String classAddres) {
