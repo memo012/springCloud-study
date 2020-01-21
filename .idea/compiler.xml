@@ -9,11 +9,11 @@
         <module name="meite-shop-alipay-plugin" />
         <module name="meite-shop-api-goods-dto" />
         <module name="meite-shop-api-pay-dto" />
+        <module name="meite-shop-service-api-weixin" />
         <module name="com-shop-service-weixin" />
         <module name="meite-shop-api-member-dto" />
-        <module name="meite-shop-service-pay" />
-        <module name="meite-shop-basics-xxl-sso-server" />
         <module name="meite-shop-service-member" />
+        <module name="meite-shop-service-pay" />
         <module name="meite-shop-basics-springcloud-erueka" />
         <module name="meite-shop-common-core" />
         <module name="meite-shop-service-api-member" />
@@ -22,7 +22,7 @@
         <module name="meite-shop-portal-web" />
         <module name="meite-shop-api-weixin-dto" />
         <module name="meite-shop-common-web-core" />
-        <module name="meite-shop-service-api-weixin" />
+        <module name="meite-shop-basics-xxl-sso-server" />
         <module name="xxl-sso-core" />
         <module name="meite-shop-service-api-pay" />
         <module name="meite-shop-service-api-goods" />

@@ -6,6 +6,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * @author Qiang
  * @version 1.0
@@ -18,6 +21,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @EnableFeignClients
 public class AppWeiXin {
     public static void main(String[] args) {
+        Map<Integer, Integer> map = new HashMap<>();
         SpringApplication.run(AppWeiXin.class, args);
     }
 }

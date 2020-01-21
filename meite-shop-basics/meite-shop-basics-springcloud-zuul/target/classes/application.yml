@@ -1,5 +1,5 @@
 server:
-  port: 8080
+  port: 9999
 
 # 指定注册中心地址
 eureka:
@@ -11,6 +11,12 @@ eureka:
 spring:
   application:
     name: app-zuul
+  ###数据库相关连接
+  datasource:
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/meite-member?useSSL=FALSE&serverTimezone=UTC
 
 # 自定义路由映射
 zuul:
@@ -24,4 +30,9 @@ zuul:
     api-c:
       path: /api-pays/**
       serviceId: app-pays
+
+### mybatis 日志打印
+logging:
+  level:
+    com.adminsys.mapper: debug
 

@@ -11,11 +11,11 @@ public enum PayTemplateName {
     /**
      *  支付宝模板名称
      */
-    ALI_PAY_TEMPLATE("AliPayCallbackTemplate"),
+    ALI_PAY_TEMPLATE("aliPayCallbackTemplate"),
     /**
      *  银联模板名称
      */
-    UNION_PAY_TEMPLATE("UnionPayCallbackTemplate");
+    UNION_PAY_TEMPLATE("unionPayCallbackTemplate");
 
     PayTemplateName(String templateName){
         this.templateName = templateName;

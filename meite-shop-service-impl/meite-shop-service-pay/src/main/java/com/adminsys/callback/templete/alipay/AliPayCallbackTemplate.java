@@ -5,6 +5,7 @@ import com.adminsys.constant.PayConstant;
 import com.adminsys.dao.PaymentTransactionMapper;
 import com.adminsys.dao.entity.PaymentTransactionEntity;
 import com.alipay.api.internal.util.AlipaySignature;
+import com.alipay.api.internal.util.StringUtils;
 import com.alipay.config.AlipayConfig;
 import io.lettuce.core.dynamic.annotation.Command;
 import lombok.extern.slf4j.Slf4j;
@@ -31,7 +32,7 @@ public class AliPayCallbackTemplate extends AbstractPayCallbackTemplate {
     private PaymentTransactionMapper paymentTransactionMapper;
 
     @Override
-    protected Map<String, String[]> verifySignature(HttpServletRequest request, HttpServletResponse resp) {
+    protected Map<String, String> verifySignature(HttpServletRequest request, HttpServletResponse resp) {
         log.info("BackRcvResponse接收后台通知开始");
         //获取支付宝POST过来反馈信息
         Map<String, String> params = new HashMap<String, String>();
@@ -45,9 +46,6 @@ public class AliPayCallbackTemplate extends AbstractPayCallbackTemplate {
                     valueStr = (i == values.length - 1) ? valueStr + values[i]
                             : valueStr + values[i] + ",";
                 }
-                //乱码解决，这段代码在出现乱码时使用
-
-                valueStr = new String(valueStr.getBytes("ISO-8859-1"), "utf-8");
                 params.put(name, valueStr);
             }
             //调用SDK验证签名
@@ -60,29 +58,27 @@ public class AliPayCallbackTemplate extends AbstractPayCallbackTemplate {
 	          */
             //验证成功
             if(signVerified) {
-                String[] success = {PayConstant.RESULT_PAYCODE_200};
-                requestParams.put(PayConstant.RESULT_NAME, success);
+                params.put(PayConstant.RESULT_NAME, PayConstant.RESULT_PAYCODE_200);
             }else {//验证失败
-                String[] error = {PayConstant.RESULT_PAYCODE_201};
-                requestParams.put(PayConstant.RESULT_NAME, error);
+                params.put(PayConstant.RESULT_NAME, PayConstant.RESULT_PAYCODE_201);
             }
         } catch (Exception e) {
-            String[] error = {PayConstant.RESULT_PAYCODE_201};
-            requestParams.put(PayConstant.RESULT_NAME, error);
+            params.put(PayConstant.RESULT_NAME, PayConstant.RESULT_PAYCODE_201);
         }
-        requestParams.put("paymentId", requestParams.get("out_trade_no"));
-        return requestParams;
+        params.put("paymentId", requestParams.get("out_trade_no")[0]);
+        params.put("trade_status", params.get("trade_status"));
+        return params;
     }
 
     @Override
-    public String asyncService(Map<String, String[]> verifySignature) {
+    public String asyncService(Map<String, String> verifySignature) {
         // 获取后台通知的数据，其他字段也可用类似方式获取  获取支付ID
-        String[] orderId = verifySignature.get("out_trade_no");
-        if(orderId.length <= 0){
+        String orderId = verifySignature.get("out_trade_no");
+        if(StringUtils.isEmpty(orderId)){
             return failResult();
         }
         // 1.根据orderId查询该支付信息
-        PaymentTransactionEntity paymentTransaction = paymentTransactionMapper.selectByPaymentId(orderId[0]);
+        PaymentTransactionEntity paymentTransaction = paymentTransactionMapper.selectByPaymentId(orderId);
         if (paymentTransaction == null) {
             return failResult();
         }
@@ -91,13 +87,13 @@ public class AliPayCallbackTemplate extends AbstractPayCallbackTemplate {
         if (paymentStatus.equals(PayConstant.PAY_STATUS_SUCCESS)) {
             return successResult();
         }
-        String[] respCode = verifySignature.get("trade_status");
-        // 3.判断银联状态码不是00或者A6状态则状态码修改为已支付失败
-        if (!(respCode[0].equals("TRADE_FINISHED") || respCode[0].equals("TRADE_SUCCESS"))) {
+        String respCode = verifySignature.get("trade_status");
+        // 3.判断是否支付成功
+        if (!("TRADE_FINISHED".equals(respCode) || "TRADE_SUCCESS".equals(respCode))) {
             return failResult();
         }
         // 修改交易订单状态为已支付(1)
-        paymentTransactionMapper.updatePaymentStatus(1, orderId[0]);
+        paymentTransactionMapper.updatePaymentStatus(1, orderId);
         return successResult();
     }
 

@@ -27,10 +27,10 @@ public class AlipayConfig {
     public static String alipay_public_key = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiAGoH2Hy0jxm98hPn+GgyFghxcBLaUMewBhNZBNmZcgBTr3gslrDByQGIULyJiSXifXfZ0Zo4Clk0Bjen1Y/zpztwUZvLjzaGeFQX4K5Ofi3jBTD1oCzWLR+5bBCWP3uMiOpjAjd2rig+OW9T9PU0RXpxOTP19NVXqcmSwQ/tsp5nmT1VnA5NdNqxpEd0NQkill+gAXg9CfBxNyCmdCelAXfvAF8qhB8ZCQ3DSyF4gm0Aj5Hn/CE6P4of48ieBktrSKzzGCfa5HjRKN3Be9MRZBLBSUkjnkhy7Sjwch/e2IHPsUjSYhHoinFjZ9JfmBzG6arx3a6qOfyQWYGRB2TpQIDAQAB";
 
 	// 服务器异步通知页面路径  需http://格式的完整路径，不能加?id=123这类自定义参数，必须外网可以正常访问
-	public static String notify_url = "http://工程公网访问地址/alipay.trade.page.pay-JAVA-UTF-8/notify_url.jsp";
+	public static String notify_url = "http://wgy3nt.natappfree.cc/index";
 
 	// 页面跳转同步通知页面路径 需http://格式的完整路径，不能加?id=123这类自定义参数，必须外网可以正常访问
-	public static String return_url = "http://工程公网访问地址/alipay.trade.page.pay-JAVA-UTF-8/return_url.jsp";
+	public static String return_url = "http://wgy3nt.natappfree.cc/aliPayAsyncCallback";
 
 	// 签名方式
 	public static String sign_type = "RSA2";
