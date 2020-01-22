@@ -30,6 +30,13 @@ zuul:
     api-c:
       path: /api-pays/**
       serviceId: app-pays
+    api-d:
+      path: /api-auth/**
+      serviceId: app-auth
+    api-e:
+      path: /public/api-auth/**
+      serviceId: app-auth
+
 
 ### mybatis 日志打印
 logging:

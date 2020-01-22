@@ -16,6 +16,7 @@
         <module>meite-shop-service-api-member</module>
         <module>meite-shop-service-api-goods</module>
         <module>meite-shop-service-api-pay</module>
+        <module>meite-shop-service-api-auth</module>
     </modules>
 
     <dependencies>

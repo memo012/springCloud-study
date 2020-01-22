@@ -15,6 +15,7 @@
         <module>com-shop-service-weixin</module>
         <module>meite-shop-service-member</module>
         <module>meite-shop-service-pay</module>
+        <module>meite-shop-service-auth</module>
     </modules>
 
 

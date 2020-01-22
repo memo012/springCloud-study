@@ -8,12 +8,13 @@ import com.netflix.zuul.ZuulFilter;
 import com.netflix.zuul.context.RequestContext;
 import com.netflix.zuul.exception.ZuulException;
 import lombok.extern.slf4j.Slf4j;
+import org.apache.commons.lang.StringEscapeUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import java.util.Map;
+import java.util.*;
 
 /**
  * @author Qiang
@@ -60,10 +61,30 @@ public class GatewayFilter extends ZuulFilter {
         // 2. 获取客户端真实ip
         String ipAddr = getIpAddress(request);
         gatewayDirector.director(ctx, ipAddr, request, response);
+        // 5.防止xss攻击
+        ctx.setRequestQueryParams(filterParameters(request, ctx));
         return null;
     }
 
-
+    /**
+     * 过滤参数
+     */
+    private Map<String, List<String>> filterParameters(HttpServletRequest request, RequestContext ctx) {
+        Map<String, List<String>> requestQueryParams = ctx.getRequestQueryParams();
+        if (requestQueryParams == null) {
+            requestQueryParams = new HashMap<>();
+        }
+        Enumeration em = request.getParameterNames();
+        while (em.hasMoreElements()) {
+            String name = (String) em.nextElement();
+            String value = request.getParameter(name);
+            ArrayList<String> arrayList = new ArrayList<>();
+            // 将参数转化为html参数 防止xss攻击
+            arrayList.add(StringEscapeUtils.escapeHtml(value));
+            requestQueryParams.put(name, arrayList);
+        }
+        return requestQueryParams;
+    }
 
 
     /**

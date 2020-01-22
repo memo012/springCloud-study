@@ -1,0 +1,39 @@
+server:
+  port: 8800
+
+# 指定注册中心地址
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8100/eureka/
+
+# 服务的名称
+spring:
+  application:
+    name: app-auth
+    ###数据库相关连接
+  datasource:
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/meite-member?useSSL=FALSE&serverTimezone=UTC
+  redis:
+    host: 127.0.0.1
+    password: feise5328
+    port: 6379
+# swagger 相关配置
+swagger:
+  base-package: com.adminsys.service
+  title: 基于SpringCloud2.x构建微服务电商项目-会员服务接口
+  version: 1.1
+  terms-of-service-url: www.memo012.com
+  contact:
+    name: memo012
+    email: 1158821459@qq.com
+
+### mybatis 日志打印
+logging:
+  level:
+    com.adminsys.mapper: debug
+
+

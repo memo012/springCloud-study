@@ -50,6 +50,18 @@
             <version>1.0-RELEASE</version>
         </dependency>
 
+        <dependency>
+            <groupId>com.meite</groupId>
+            <artifactId>meite-shop-service-api-auth</artifactId>
+            <version>1.0-RELEASE</version>
+        </dependency>
+
+        <!--        feign依赖-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-openfeign</artifactId>
+        </dependency>
+
 
     </dependencies>
 </project>

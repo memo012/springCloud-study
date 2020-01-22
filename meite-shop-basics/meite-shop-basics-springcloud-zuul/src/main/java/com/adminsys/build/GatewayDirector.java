@@ -30,8 +30,13 @@ public class GatewayDirector {
         /**
          * 参数验证
          */
-        Boolean verifyMap = gatewayBuild.toVerifyMap(ctx, ipAddres, request);
-        if (!verifyMap) {
+//        Boolean verifyMap = gatewayBuild.toVerifyMap(ctx, ipAddres, request);
+//        if (!verifyMap) {
+//            return;
+//        }
+        // 3.验证accessToken
+        Boolean apiAuthority = gatewayBuild.apiAuthority(ctx, request);
+        if (!apiAuthority) {
             return;
         }
     }
