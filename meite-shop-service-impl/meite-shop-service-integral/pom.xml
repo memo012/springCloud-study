@@ -9,25 +9,19 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>meite-shop-service-pay</artifactId>
+    <artifactId>meite-shop-service-integral</artifactId>
     <packaging>jar</packaging>
-
     <dependencies>
         <dependency>
-            <artifactId>meite-shop-service-api-pay</artifactId>
             <groupId>com.meite</groupId>
+            <artifactId>meite-shop-service-api-integral</artifactId>
             <version>1.0-RELEASE</version>
         </dependency>
-        <dependency>
-            <artifactId>meite-shop-alipay-plugin</artifactId>
-            <groupId>com.meite</groupId>
-            <version>1.0-RELEASE</version>
-        </dependency>
+        <!-- 添加springboot对amqp的支持 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-amqp</artifactId>
         </dependency>
     </dependencies>
-
 
 </project>

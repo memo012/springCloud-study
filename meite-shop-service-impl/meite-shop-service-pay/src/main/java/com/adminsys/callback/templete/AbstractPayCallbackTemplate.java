@@ -6,6 +6,7 @@ import com.adminsys.dao.entity.PaymentTransactionLogEntity;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -26,8 +27,8 @@ public abstract class AbstractPayCallbackTemplate {
     @Autowired
     private PaymentTransactionLogMapper paymentTransactionLogMapper;
 
-//    @Autowired
-//    private ThreadPoolTaskExecutor threadPoolTaskExecutor;
+    @Autowired
+    private ThreadPoolTaskExecutor threadPoolTaskExecutor;
 
     /**
      * 获取所有请求的参数，封装成Map集合 并且验证是否被篡改

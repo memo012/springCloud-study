@@ -1,6 +1,7 @@
 package com.adminsys.file;
 
 import com.adminsys.build.GatewayDirector;
+import com.adminsys.handler.ResponsibilityClient;
 import com.adminsys.mapper.BlacklistMapper;
 import com.adminsys.mapper.entity.BlackListDao;
 import com.adminsys.sign.SignUtil;
@@ -32,6 +33,9 @@ public class GatewayFilter extends ZuulFilter {
     @Autowired
     private GatewayDirector gatewayDirector;
 
+    @Autowired
+    private ResponsibilityClient responsibilityClient;
+
     /**
      * 在方法之前拦截
      *
@@ -60,9 +64,10 @@ public class GatewayFilter extends ZuulFilter {
         HttpServletResponse response = ctx.getResponse();
         // 2. 获取客户端真实ip
         String ipAddr = getIpAddress(request);
-        gatewayDirector.director(ctx, ipAddr, request, response);
+//        gatewayDirector.director(ctx, ipAddr, request, response);
+        responsibilityClient.responsibility(ctx, ipAddr, request, response);
         // 5.防止xss攻击
-        ctx.setRequestQueryParams(filterParameters(request, ctx));
+//        ctx.setRequestQueryParams(filterParameters(request, ctx));
         return null;
     }
 

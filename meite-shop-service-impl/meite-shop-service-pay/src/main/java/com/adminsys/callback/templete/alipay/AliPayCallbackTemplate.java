@@ -4,12 +4,14 @@ import com.adminsys.callback.templete.AbstractPayCallbackTemplate;
 import com.adminsys.constant.PayConstant;
 import com.adminsys.dao.PaymentTransactionMapper;
 import com.adminsys.dao.entity.PaymentTransactionEntity;
+import com.adminsys.mq.producer.IntegralProducer;
+import com.alibaba.fastjson.JSONObject;
 import com.alipay.api.internal.util.AlipaySignature;
 import com.alipay.api.internal.util.StringUtils;
 import com.alipay.config.AlipayConfig;
-import io.lettuce.core.dynamic.annotation.Command;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Component;
 
 import javax.servlet.http.HttpServletRequest;
@@ -30,6 +32,9 @@ public class AliPayCallbackTemplate extends AbstractPayCallbackTemplate {
 
     @Autowired
     private PaymentTransactionMapper paymentTransactionMapper;
+
+    @Autowired
+    private IntegralProducer integralProducer;
 
     @Override
     protected Map<String, String> verifySignature(HttpServletRequest request, HttpServletResponse resp) {
@@ -93,8 +98,19 @@ public class AliPayCallbackTemplate extends AbstractPayCallbackTemplate {
             return failResult();
         }
         // 修改交易订单状态为已支付(1)
-        paymentTransactionMapper.updatePaymentStatus(1, orderId);
+        paymentTransactionMapper.updatePaymentStatus(PayConstant.PAY_STATUS_SUCCESS, orderId);
+        // 3.调用积分服务接口增加积分(处理幂等性问题) MQ
+        addMQIntegral(paymentTransaction);
         return successResult();
+    }
+
+    @Async
+    public void addMQIntegral(PaymentTransactionEntity paymentTransaction) {
+        JSONObject jsonObject = new JSONObject();
+        jsonObject.put("paymentId", paymentTransaction.getPaymentId());
+        jsonObject.put("userId", paymentTransaction.getUserId());
+        jsonObject.put("integral", 100);
+        integralProducer.send(jsonObject);
     }
 
     @Override

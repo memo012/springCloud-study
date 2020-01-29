@@ -17,10 +17,23 @@ spring:
     password: root
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://127.0.0.1:3306/meite-member?useSSL=FALSE&serverTimezone=UTC
+    ###  redis配置
   redis:
     host: 127.0.0.1
     password: feise5328
     port: 6379
+    ###  rabbitmq生产者配置
+  rabbitmq:
+    host: 114.116.224.100
+    username: memo012
+    password: 123456
+    port: 5672
+    virtual-host: /test
+    ###开启消息确认机制 confirms
+    publisher-confirms: true
+    publisher-returns: true
+
+
 # swagger 相关配置
 swagger:
   base-package: com.adminsys.service
