@@ -1,6 +1,6 @@
-package com.adminsys.dao;
+package com.adminsys.service.dao;
 
-import com.adminsys.dao.entity.PaymentTransactionLogEntity;
+import com.adminsys.service.dao.entity.PaymentTransactionLogEntity;
 import org.apache.ibatis.annotations.Insert;
 import org.springframework.stereotype.Repository;
 

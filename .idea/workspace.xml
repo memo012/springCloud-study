@@ -5,50 +5,53 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e1353b5-38c7-492c-978f-e951af44da73" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-springcloud-zuul/src/main/java/com/adminsys/handler/GatewayHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-springcloud-zuul/src/main/java/com/adminsys/handler/ResponsibilityClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-springcloud-zuul/src/main/java/com/adminsys/handler/factory/FactoryHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-springcloud-zuul/src/main/java/com/adminsys/handler/impl/ApiAuthorityHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-springcloud-zuul/src/main/java/com/adminsys/handler/impl/BaseHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-springcloud-zuul/src/main/java/com/adminsys/handler/impl/BlacklistHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-springcloud-zuul/src/main/java/com/adminsys/handler/impl/XssHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-springcloud-zuul/src/main/java/com/adminsys/wrapper/XssAndSqlHttpServletRequestWrapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-common/meite-shop-common-core/src/main/java/com/adminsys/utils/HttpClientUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-job/meite-shop-job.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-job/meite-shop-pay-job/meite-shop-pay-job.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-job/meite-shop-pay-job/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-job/meite-shop-pay-job/src/main/java/com/adminsys/AppPayJob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-job/meite-shop-pay-job/src/main/java/com/adminsys/config/XxlJobConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-job/meite-shop-pay-job/src/main/java/com/adminsys/service/PayJobService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-job/meite-shop-pay-job/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-job/meite-shop-pay-job/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-job/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-service-api/meite-shop-service-api-integral/meite-shop-service-api-integral.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-service-api/meite-shop-service-api-integral/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-integral/meite-shop-service-integral.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-integral/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-integral/src/main/java/com/adminsys/AppIntegral.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-integral/src/main/java/com/adminsys/consume/IntegralConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-integral/src/main/java/com/adminsys/mapper/IntegralMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-integral/src/main/java/com/adminsys/mapper/entity/IntegralEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-integral/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/java/com/adminsys/mq/config/PayMqConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/java/com/adminsys/mq/consumer/PayCheckStateConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/java/com/adminsys/mq/producer/IntegralProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-service-api/meite-shop-service-api-spike/meite-shop-service-api-spike.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-service-api/meite-shop-service-api-spike/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-service-api/meite-shop-service-api-spike/src/main/java/com/adminsys/service/OrderSpickService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-service-api/meite-shop-service-api-spike/src/main/java/com/adminsys/service/SpikeCommodityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-spike/meite-shop-service-spike.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-spike/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-spike/src/main/java/com/adminsys/AppSpike.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-spike/src/main/java/com/adminsys/mq/config/RabbitmqConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-spike/src/main/java/com/adminsys/mq/consumer/StockConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-spike/src/main/java/com/adminsys/mq/producer/SpikeCommodityProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-spike/src/main/java/com/adminsys/service/impl/OrderSeckillServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-spike/src/main/java/com/adminsys/service/impl/SpikeCommodityServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-spike/src/main/java/com/adminsys/service/mapper/OrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-spike/src/main/java/com/adminsys/service/mapper/SeckillMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-spike/src/main/java/com/adminsys/service/mapper/entity/OrderEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-spike/src/main/java/com/adminsys/service/mapper/entity/SeckillEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-spike/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-spike/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-spike/src/main/resources/mybatis/mybatis-config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-springcloud-zuul/src/main/java/com/adminsys/file/GatewayFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-springcloud-zuul/src/main/java/com/adminsys/file/GatewayFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-springcloud-zuul/target/classes/com/adminsys/file/GatewayFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-springcloud-zuul/target/classes/com/adminsys/file/GatewayFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meite-shop-common/meite-shop-common-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-common/meite-shop-common-core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meite-shop-common/meite-shop-common-core/src/main/java/com/adminsys/token/GenerateToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-common/meite-shop-common-core/src/main/java/com/adminsys/token/GenerateToken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meite-shop-common/meite-shop-common-core/src/main/java/com/adminsys/utils/RedisUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-common/meite-shop-common-core/src/main/java/com/adminsys/utils/RedisUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meite-shop-common/meite-shop-common-core/target/classes/com/adminsys/token/GenerateToken.class" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-common/meite-shop-common-core/target/classes/com/adminsys/token/GenerateToken.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meite-shop-common/meite-shop-common-core/target/classes/com/adminsys/utils/RedisUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-common/meite-shop-common-core/target/classes/com/adminsys/utils/RedisUtil.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/meite-shop-service-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-integral/src/main/java/com/adminsys/mapper/IntegralMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-integral/src/main/java/com/adminsys/mapper/IntegralMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-integral/src/main/java/com/adminsys/mapper/entity/IntegralEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-integral/src/main/java/com/adminsys/mapper/entity/IntegralEntity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/java/com/adminsys/AppPays.java" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/java/com/adminsys/AppPays.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/java/com/adminsys/callback/templete/AbstractPayCallbackTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/java/com/adminsys/callback/templete/AbstractPayCallbackTemplate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/java/com/adminsys/callback/templete/alipay/AliPayCallbackTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/java/com/adminsys/callback/templete/alipay/AliPayCallbackTemplate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/java/com/adminsys/dao/PaymentChannelMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/java/com/adminsys/service/dao/PaymentChannelMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/java/com/adminsys/dao/PaymentTransactionLogMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/java/com/adminsys/service/dao/PaymentTransactionLogMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/java/com/adminsys/dao/PaymentTransactionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/java/com/adminsys/service/dao/PaymentTransactionMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/java/com/adminsys/dao/entity/PaymentChannelEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/java/com/adminsys/service/dao/entity/PaymentChannelEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/java/com/adminsys/dao/entity/PaymentTransactionEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/java/com/adminsys/service/dao/entity/PaymentTransactionEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/java/com/adminsys/dao/entity/PaymentTransactionLogEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/java/com/adminsys/service/dao/entity/PaymentTransactionLogEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/java/com/adminsys/impl/PayContextServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/java/com/adminsys/impl/PayContextServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/java/com/adminsys/impl/PayMentTransacInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/java/com/adminsys/impl/PayMentTransacInfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/java/com/adminsys/impl/PayMentTransacTokenServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/java/com/adminsys/impl/PayMentTransacTokenServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/java/com/adminsys/impl/PaymentChannelServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/java/com/adminsys/impl/PaymentChannelServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/java/com/adminsys/mq/consumer/PayCheckStateConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/java/com/adminsys/mq/consumer/PayCheckStateConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/java/com/adminsys/strategy/PayStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/java/com/adminsys/strategy/PayStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/java/com/adminsys/strategy/impl/AliPayStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/java/com/adminsys/strategy/impl/AliPayStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/java/com/adminsys/strategy/impl/UnionPayStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay/src/main/java/com/adminsys/strategy/impl/UnionPayStrategy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/meite-shop-service-impl/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/meite-shop-service-impl/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -96,19 +99,16 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-integral/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-spike/src/main/java/com/adminsys/mq/config" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-integral/src/main/resources" />
-      <recent name="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-integral/src/main/java/com/adminsys" />
-      <recent name="$PROJECT_DIR$/meite-shop-job/meite-shop-pay-job/src/main/java" />
-      <recent name="$PROJECT_DIR$/meite-shop-job/meite-shop-pay-job/src/main/resources" />
-      <recent name="$PROJECT_DIR$/meite-shop-common/meite-shop-common-core/src/main/java/com/adminsys/utils" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.adminsys.callback.factory" />
+      <recent name="com.adminsys.callback.templete.service" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.alipay.config" />
@@ -117,9 +117,12 @@
       <recent name="com.adminsys.portal.config" />
       <recent name="com.adminsys.portal.feign" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.adminsys.callback.factory" />
-      <recent name="com.adminsys.callback.templete.service" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-spike/src/main/java/com/adminsys/mq/config" />
+      <recent name="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-spike/src/main/java/com/adminsys" />
+      <recent name="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-spike/src/main/java/com/adminsys/service/impl" />
+      <recent name="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-spike/src/main/resources" />
+      <recent name="$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-spike/src/main/java/com/adminsys/service" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -134,7 +137,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.AppGateWay">
+  <component name="RunManager" selected="Spring Boot.AppSpike">
     <configuration name="AppAuth" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="meite-shop-service-auth" />
       <extension name="coverage">
@@ -174,19 +177,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppPay" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="meite-shop-portal-pay-web" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.adminsys.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.adminsys.AppPay" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="AppPays" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="meite-shop-service-pay" />
       <extension name="coverage">
@@ -200,13 +190,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AppSpike" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="meite-shop-service-spike" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.adminsys.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.adminsys.AppSpike" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.AppGateWay" />
+        <item itemvalue="Spring Boot.AppSpike" />
         <item itemvalue="Spring Boot.AppEureka" />
+        <item itemvalue="Spring Boot.AppGateWay" />
         <item itemvalue="Spring Boot.AppAuth" />
         <item itemvalue="Spring Boot.AppPays" />
-        <item itemvalue="Spring Boot.AppPay" />
       </list>
     </recent_temporary>
   </component>
@@ -272,7 +275,8 @@
       <workItem from="1579786205023" duration="49000" />
       <workItem from="1580126357922" duration="62000" />
       <workItem from="1580127602556" duration="606000" />
-      <workItem from="1580273271039" duration="11477000" />
+      <workItem from="1580273271039" duration="11764000" />
+      <workItem from="1580358172362" duration="10728000" />
     </task>
     <servers />
   </component>

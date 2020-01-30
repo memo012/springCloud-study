@@ -1,4 +1,4 @@
-package com.adminsys.dao.entity;
+package com.adminsys.service.dao.entity;
 
 import java.util.Date;
 

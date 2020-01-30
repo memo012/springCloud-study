@@ -1,5 +1,6 @@
 package com.adminsys.utils;
 
+import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,6 +15,34 @@ import org.springframework.stereotype.Component;
 public class RedisUtil {
 	@Autowired
 	private StringRedisTemplate stringRedisTemplate;
+
+	/**
+	 *  如果key存在的话返回fasle 不存在的话返回true
+	 * @param key
+	 * @param value
+	 * @param timeout
+	 * @return
+	 */
+	public Boolean setNx(String key, String value, Long timeout) {
+		Boolean setIfAbsent = stringRedisTemplate.opsForValue().setIfAbsent(key, value);
+		if (timeout != null) {
+			stringRedisTemplate.expire(key, timeout, TimeUnit.SECONDS);
+		}
+		return setIfAbsent;
+	}
+
+	/**
+	 *  value为list集合
+	 * @param key
+	 * @param listToken
+	 */
+	public void setList(String key, List<String> listToken) {
+		stringRedisTemplate.opsForList().leftPushAll(key, listToken);
+	}
+
+	public StringRedisTemplate getStringRedisTemplate() {
+		return stringRedisTemplate;
+	}
 
 	/**
 	 * 存放string类型

@@ -1,8 +1,8 @@
 package com.adminsys.callback.templete;
 
 import com.adminsys.constant.PayConstant;
-import com.adminsys.dao.PaymentTransactionLogMapper;
-import com.adminsys.dao.entity.PaymentTransactionLogEntity;
+import com.adminsys.service.dao.PaymentTransactionLogMapper;
+import com.adminsys.service.dao.entity.PaymentTransactionLogEntity;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -2,8 +2,8 @@ package com.adminsys.callback.templete.alipay;
 
 import com.adminsys.callback.templete.AbstractPayCallbackTemplate;
 import com.adminsys.constant.PayConstant;
-import com.adminsys.dao.PaymentTransactionMapper;
-import com.adminsys.dao.entity.PaymentTransactionEntity;
+import com.adminsys.service.dao.PaymentTransactionMapper;
+import com.adminsys.service.dao.entity.PaymentTransactionEntity;
 import com.adminsys.mq.producer.IntegralProducer;
 import com.alibaba.fastjson.JSONObject;
 import com.alipay.api.internal.util.AlipaySignature;

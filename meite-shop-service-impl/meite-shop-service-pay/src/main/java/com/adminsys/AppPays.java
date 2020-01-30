@@ -17,7 +17,7 @@ import org.springframework.scheduling.annotation.EnableAsync;
 @EnableEurekaClient
 @EnableSwagger2Doc
 @EnableAsync
-@MapperScan("com.adminsys.dao")
+@MapperScan("com.adminsys.service.dao")
 public class AppPays {
     public static void main(String[] args) {
         SpringApplication.run(AppPays.class, args);

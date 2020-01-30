@@ -1,8 +1,8 @@
 package com.adminsys.mq.consumer;
 
 import com.adminsys.constant.PayConstant;
-import com.adminsys.dao.PaymentTransactionMapper;
-import com.adminsys.dao.entity.PaymentTransactionEntity;
+import com.adminsys.service.dao.PaymentTransactionMapper;
+import com.adminsys.service.dao.entity.PaymentTransactionEntity;
 import com.alibaba.fastjson.JSONObject;
 import com.rabbitmq.client.Channel;
 import lombok.extern.slf4j.Slf4j;

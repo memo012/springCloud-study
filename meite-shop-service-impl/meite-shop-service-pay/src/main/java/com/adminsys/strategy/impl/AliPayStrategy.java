@@ -1,6 +1,6 @@
 package com.adminsys.strategy.impl;
 
-import com.adminsys.dao.entity.PaymentChannelEntity;
+import com.adminsys.service.dao.entity.PaymentChannelEntity;
 import com.adminsys.pay.output.PayMentTransacDTO;
 import com.adminsys.strategy.PayStrategy;
 import com.alipay.api.AlipayApiException;

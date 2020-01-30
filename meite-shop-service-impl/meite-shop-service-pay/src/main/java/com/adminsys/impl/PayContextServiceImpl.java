@@ -2,8 +2,8 @@ package com.adminsys.impl;
 
 import com.adminsys.base.BaseApiService;
 import com.adminsys.base.BaseResponse;
-import com.adminsys.dao.PaymentChannelMapper;
-import com.adminsys.dao.entity.PaymentChannelEntity;
+import com.adminsys.service.dao.PaymentChannelMapper;
+import com.adminsys.service.dao.entity.PaymentChannelEntity;
 import com.adminsys.factory.StrategyFactory;
 import com.adminsys.pay.output.PayMentTransacDTO;
 import com.adminsys.service.PayContextService;

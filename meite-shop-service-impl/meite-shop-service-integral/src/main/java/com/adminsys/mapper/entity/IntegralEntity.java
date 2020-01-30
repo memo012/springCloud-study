@@ -4,6 +4,9 @@ import java.util.Date;
 
 import lombok.Data;
 
+/**
+ * @author memo012
+ */
 @Data
 public class IntegralEntity {
 	/** 主键ID */

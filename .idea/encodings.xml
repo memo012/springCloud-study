@@ -28,6 +28,7 @@
     <file url="file://$PROJECT_DIR$/meite-shop-service-api/meite-shop-service-api-integral" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/meite-shop-service-api/meite-shop-service-api-member" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/meite-shop-service-api/meite-shop-service-api-pay" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/meite-shop-service-api/meite-shop-service-api-spike" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/meite-shop-service-api/meite-shop-service-api-weixin" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/meite-shop-service-impl" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/meite-shop-service-impl/com-shop-service-weixin" charset="UTF-8" />
@@ -35,5 +36,6 @@
     <file url="file://$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-integral" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-member" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-pay" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/meite-shop-service-impl/meite-shop-service-spike" charset="UTF-8" />
   </component>
 </project>

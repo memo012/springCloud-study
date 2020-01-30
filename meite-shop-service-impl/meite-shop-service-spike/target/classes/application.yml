@@ -1,0 +1,48 @@
+###服务注册到eureka地址
+eureka:
+  client:
+    service-url:
+           defaultZone: http://localhost:8100/eureka        
+server:
+  port: 9800
+
+
+  
+spring:
+  application:
+    name: app-spike
+  redis:
+    host: 127.0.0.1
+    password: feise5328
+    port: 6379
+###数据库相关连接      
+    ###数据库相关连接
+  datasource:
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/meite-member?useSSL=FALSE&serverTimezone=UTC
+    ###  rabbitmq配置
+  rabbitmq:
+    host: 114.116.224.100
+    username: memo012
+    password: 123456
+    port: 5672
+    virtual-host: /test
+    ###开启消息确认机制 confirms
+    publisher-confirms: true
+    publisher-returns: true
+    listener:
+      simple:
+        retry:
+          ####开启消费者（程序出现异常的情况下会）进行重试
+          enabled: true
+          ####最大重试次数
+          max-attempts: 5
+          ####重试间隔次数
+          initial-interval: 3000
+
+### mybatis 日志打印
+logging:
+  level:
+    com.adminsys.dao: debug

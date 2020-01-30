@@ -1,6 +1,6 @@
 package com.adminsys.strategy;
 
-import com.adminsys.dao.entity.PaymentChannelEntity;
+import com.adminsys.service.dao.entity.PaymentChannelEntity;
 import com.adminsys.pay.output.PayMentTransacDTO;
 
 /**
