@@ -14,7 +14,7 @@
 
     <properties>
         <swagger.version>1.7.0.RELEASE</swagger.version>
-        <mysql.version>8.0.13</mysql.version>
+        <mysql.version>8.0.28</mysql.version>
     </properties>
 
     <dependencies>
